@@ -1,0 +1,3096 @@
+[
+  {
+    "id": "imp-1",
+    "role": "Importer",
+    "name": "Al Ghurair Foods",
+    "logo": "🏢",
+    "city": "Dubai",
+    "state": "Dubai Emirate",
+    "country": "UAE",
+    "trustScore": 978,
+    "rating": 4.95,
+    "reviews": 310,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Premium Basmati Rice",
+      "Traditional Raw Basmati Rice",
+      "Organic Coffee Beans Grade A"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Jebel Ali Port, Dubai",
+      "Port Rashid"
+    ],
+    "yearsActive": 45,
+    "annualSourcingVolume": "$180M",
+    "verificationStatus": "SWIFT Node Verified Liquidity",
+    "connections": 280,
+    "endorsements": 76
+  },
+  {
+    "id": "imp-2",
+    "role": "Importer",
+    "name": "Lulu Group International",
+    "logo": "🏬",
+    "city": "Abu Dhabi",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 951,
+    "rating": 4.68,
+    "reviews": 8,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Abu Dhabi",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$20M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 121,
+    "endorsements": 9
+  },
+  {
+    "id": "imp-3",
+    "role": "Importer",
+    "name": "Olam Agri Gulf",
+    "logo": "🌾",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 845,
+    "rating": 4.76,
+    "reviews": 13,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 16,
+    "annualSourcingVolume": "$92M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 27,
+    "endorsements": 17
+  },
+  {
+    "id": "imp-4",
+    "role": "Importer",
+    "name": "Reesha General Trading LLC",
+    "logo": "📦",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 843,
+    "rating": 4.7,
+    "reviews": 40,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Coffee",
+      "Tea",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 13,
+    "annualSourcingVolume": "$35M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 30,
+    "endorsements": 30
+  },
+  {
+    "id": "imp-5",
+    "role": "Importer",
+    "name": "Sunrise Edible Foodstuff LLC",
+    "logo": "🍚",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 905,
+    "rating": 4.42,
+    "reviews": 63,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Spices",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$14M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 116,
+    "endorsements": 8
+  },
+  {
+    "id": "imp-6",
+    "role": "Importer",
+    "name": "Rice King Foodstuff & Beverages Trading",
+    "logo": "👑",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 990,
+    "rating": 4.98,
+    "reviews": 104,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Textiles",
+      "Tea",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 33,
+    "annualSourcingVolume": "$6M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 135,
+    "endorsements": 24
+  },
+  {
+    "id": "imp-7",
+    "role": "Importer",
+    "name": "Gautam General Trading LLC",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 923,
+    "rating": 4.92,
+    "reviews": 87,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Handicrafts",
+      "Chemicals",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 4,
+    "annualSourcingVolume": "$5M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 166,
+    "endorsements": 34
+  },
+  {
+    "id": "imp-8",
+    "role": "Importer",
+    "name": "Al Maya Group",
+    "logo": "🛒",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 864,
+    "rating": 4.77,
+    "reviews": 86,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Engineering Goods",
+      "Chemicals",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 22,
+    "annualSourcingVolume": "$26M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 173,
+    "endorsements": 18
+  },
+  {
+    "id": "imp-9",
+    "role": "Importer",
+    "name": "Choithrams UAE",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 893,
+    "rating": 4.94,
+    "reviews": 84,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Auto Components",
+      "Engineering Goods",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$76M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 55,
+    "endorsements": 10
+  },
+  {
+    "id": "imp-10",
+    "role": "Importer",
+    "name": "Spinneys Dubai LLC",
+    "logo": "🛒",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 851,
+    "rating": 4.76,
+    "reviews": 119,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Auto Components",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 29,
+    "annualSourcingVolume": "$92M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 148,
+    "endorsements": 14
+  },
+  {
+    "id": "imp-11",
+    "role": "Importer",
+    "name": "Carrefour Middle East (Majid Al Futtaim)",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 895,
+    "rating": 4.59,
+    "reviews": 77,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Handicrafts",
+      "Chemicals",
+      "Pharmaceuticals",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 5,
+    "annualSourcingVolume": "$87M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 97,
+    "endorsements": 40
+  },
+  {
+    "id": "imp-12",
+    "role": "Importer",
+    "name": "Al Adil Trading Co LLC",
+    "logo": "🌶️",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 896,
+    "rating": 4.66,
+    "reviews": 61,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Handicrafts",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 29,
+    "annualSourcingVolume": "$38M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 181,
+    "endorsements": 37
+  },
+  {
+    "id": "imp-13",
+    "role": "Importer",
+    "name": "Baqer Mohebi Enterprises",
+    "logo": "🏢",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 870,
+    "rating": 4.91,
+    "reviews": 33,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Rice",
+      "Pharmaceuticals",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 25,
+    "annualSourcingVolume": "$111M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 129,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-14",
+    "role": "Importer",
+    "name": "Farzana General Trading",
+    "logo": "📦",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 988,
+    "rating": 4.55,
+    "reviews": 77,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 5,
+    "annualSourcingVolume": "$26M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 31,
+    "endorsements": 9
+  },
+  {
+    "id": "imp-15",
+    "role": "Importer",
+    "name": "Emirates Food Industries",
+    "logo": "🌾",
+    "city": "Abu Dhabi",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 904,
+    "rating": 4.8,
+    "reviews": 30,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Chemicals",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Abu Dhabi",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 32,
+    "annualSourcingVolume": "$22M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 85,
+    "endorsements": 28
+  },
+  {
+    "id": "imp-16",
+    "role": "Importer",
+    "name": "Federal Foods LLC",
+    "logo": "🚛",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 905,
+    "rating": 4.81,
+    "reviews": 104,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 16,
+    "annualSourcingVolume": "$38M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 116,
+    "endorsements": 1
+  },
+  {
+    "id": "imp-17",
+    "role": "Importer",
+    "name": "Global Food Industries LLC",
+    "logo": "🏭",
+    "city": "Sharjah",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 859,
+    "rating": 4.42,
+    "reviews": 74,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Sharjah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 21,
+    "annualSourcingVolume": "$9M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 102,
+    "endorsements": 1
+  },
+  {
+    "id": "imp-18",
+    "role": "Importer",
+    "name": "METRO AG",
+    "logo": "🏬",
+    "city": "Düsseldorf",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 988,
+    "rating": 4.69,
+    "reviews": 39,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Rice",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Düsseldorf",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 35,
+    "annualSourcingVolume": "$39M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 168,
+    "endorsements": 26
+  },
+  {
+    "id": "imp-19",
+    "role": "Importer",
+    "name": "REWE Group",
+    "logo": "🛒",
+    "city": "Cologne",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 983,
+    "rating": 4.43,
+    "reviews": 32,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Cologne",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$100M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 139,
+    "endorsements": 4
+  },
+  {
+    "id": "imp-20",
+    "role": "Importer",
+    "name": "Edeka Group",
+    "logo": "🏬",
+    "city": "Hamburg",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 988,
+    "rating": 4.77,
+    "reviews": 87,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Tea",
+      "Pharmaceuticals",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Hamburg",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 12,
+    "annualSourcingVolume": "$83M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 105,
+    "endorsements": 38
+  },
+  {
+    "id": "imp-21",
+    "role": "Importer",
+    "name": "Aldi Nord",
+    "logo": "🛒",
+    "city": "Essen",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 876,
+    "rating": 4.64,
+    "reviews": 110,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Tea",
+      "Spices",
+      "Pharmaceuticals",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Essen",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 15,
+    "annualSourcingVolume": "$41M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 51,
+    "endorsements": 30
+  },
+  {
+    "id": "imp-22",
+    "role": "Importer",
+    "name": "Aldi Süd",
+    "logo": "🛒",
+    "city": "Mülheim",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 883,
+    "rating": 4.67,
+    "reviews": 25,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Tea",
+      "Spices",
+      "Engineering Goods",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Mülheim",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 4,
+    "annualSourcingVolume": "$97M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 144,
+    "endorsements": 33
+  },
+  {
+    "id": "imp-23",
+    "role": "Importer",
+    "name": "Lidl Stiftung & Co. KG",
+    "logo": "🏬",
+    "city": "Neckarsulm",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 839,
+    "rating": 4.65,
+    "reviews": 102,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Textiles",
+      "Spices",
+      "Handicrafts",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Neckarsulm",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 9,
+    "annualSourcingVolume": "$71M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 37,
+    "endorsements": 24
+  },
+  {
+    "id": "imp-24",
+    "role": "Importer",
+    "name": "Schwarz Group",
+    "logo": "🏢",
+    "city": "Neckarsulm",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 961,
+    "rating": 4.89,
+    "reviews": 84,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Pharmaceuticals",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Neckarsulm",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 21,
+    "annualSourcingVolume": "$50M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 21,
+    "endorsements": 26
+  },
+  {
+    "id": "imp-25",
+    "role": "Importer",
+    "name": "Genuport Trade GmbH",
+    "logo": "🌍",
+    "city": "Norderstedt",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 873,
+    "rating": 4.72,
+    "reviews": 60,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Pharmaceuticals",
+      "Coffee",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Norderstedt",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 22,
+    "annualSourcingVolume": "$74M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 34,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-26",
+    "role": "Importer",
+    "name": "BAT Agrar GmbH",
+    "logo": "🌾",
+    "city": "Ratzeburg",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 952,
+    "rating": 4.7,
+    "reviews": 74,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Ratzeburg",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 7,
+    "annualSourcingVolume": "$61M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 36,
+    "endorsements": 27
+  },
+  {
+    "id": "imp-27",
+    "role": "Importer",
+    "name": "Frutania GmbH",
+    "logo": "🍎",
+    "city": "Grafschaft",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 933,
+    "rating": 4.81,
+    "reviews": 6,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Coffee",
+      "Spices",
+      "Auto Components",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CFR",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Grafschaft",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 9,
+    "annualSourcingVolume": "$118M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 62,
+    "endorsements": 13
+  },
+  {
+    "id": "imp-28",
+    "role": "Importer",
+    "name": "KÖLLA Group",
+    "logo": "🌍",
+    "city": "Düsseldorf",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 850,
+    "rating": 4.45,
+    "reviews": 17,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Spices",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Düsseldorf",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 13,
+    "annualSourcingVolume": "$14M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 161,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-29",
+    "role": "Importer",
+    "name": "Tegut... Gute Lebensmittel",
+    "logo": "🛒",
+    "city": "Fulda",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 858,
+    "rating": 4.75,
+    "reviews": 100,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Handicrafts",
+      "Coffee",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Fulda",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 15,
+    "annualSourcingVolume": "$73M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 162,
+    "endorsements": 12
+  },
+  {
+    "id": "imp-30",
+    "role": "Importer",
+    "name": "Globus Holding GmbH & Co. KG",
+    "logo": "🏬",
+    "city": "Sankt Wendel",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 945,
+    "rating": 4.61,
+    "reviews": 90,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Engineering Goods",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Sankt Wendel",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 32,
+    "annualSourcingVolume": "$80M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 43,
+    "endorsements": 19
+  },
+  {
+    "id": "imp-31",
+    "role": "Importer",
+    "name": "Tesco Plc",
+    "logo": "🏬",
+    "city": "Welwyn Garden City",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 934,
+    "rating": 4.86,
+    "reviews": 11,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Textiles",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Welwyn Garden City",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 8,
+    "annualSourcingVolume": "$35M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 43,
+    "endorsements": 1
+  },
+  {
+    "id": "imp-32",
+    "role": "Importer",
+    "name": "J Sainsbury Plc",
+    "logo": "🛒",
+    "city": "London",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 908,
+    "rating": 4.82,
+    "reviews": 93,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Chemicals",
+      "Handicrafts",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of London",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 27,
+    "annualSourcingVolume": "$96M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 132,
+    "endorsements": 30
+  },
+  {
+    "id": "imp-33",
+    "role": "Importer",
+    "name": "Asda Group Limited",
+    "logo": "🏬",
+    "city": "Leeds",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 876,
+    "rating": 4.46,
+    "reviews": 16,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Tea",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Leeds",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$83M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 104,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-34",
+    "role": "Importer",
+    "name": "Wm Morrison Supermarkets Ltd",
+    "logo": "🛒",
+    "city": "Bradford",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 981,
+    "rating": 4.89,
+    "reviews": 107,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Pharmaceuticals",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Bradford",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 23,
+    "annualSourcingVolume": "$120M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 110,
+    "endorsements": 21
+  },
+  {
+    "id": "imp-35",
+    "role": "Importer",
+    "name": "Marks & Spencer Group Plc",
+    "logo": "🏬",
+    "city": "London",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 860,
+    "rating": 4.76,
+    "reviews": 78,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "DDP",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of London",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 13,
+    "annualSourcingVolume": "$50M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 120,
+    "endorsements": 9
+  },
+  {
+    "id": "imp-36",
+    "role": "Importer",
+    "name": "Associated British Foods Plc",
+    "logo": "🏢",
+    "city": "London",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 914,
+    "rating": 4.65,
+    "reviews": 16,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Spices",
+      "Textiles",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of London",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 6,
+    "annualSourcingVolume": "$30M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 145,
+    "endorsements": 16
+  },
+  {
+    "id": "imp-37",
+    "role": "Importer",
+    "name": "Booker Group",
+    "logo": "📦",
+    "city": "Wellingborough",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 960,
+    "rating": 4.88,
+    "reviews": 108,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Tea",
+      "Handicrafts",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Wellingborough",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 13,
+    "annualSourcingVolume": "$10M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 40,
+    "endorsements": 39
+  },
+  {
+    "id": "imp-38",
+    "role": "Importer",
+    "name": "Ocado Group Plc",
+    "logo": "🛒",
+    "city": "Hatfield",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 931,
+    "rating": 4.62,
+    "reviews": 44,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Coffee",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Hatfield",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 19,
+    "annualSourcingVolume": "$70M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 109,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-39",
+    "role": "Importer",
+    "name": "The Co-operative Group",
+    "logo": "🛒",
+    "city": "Manchester",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 930,
+    "rating": 4.44,
+    "reviews": 81,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Manchester",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 5,
+    "annualSourcingVolume": "$81M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 140,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-40",
+    "role": "Importer",
+    "name": "Waitrose & Partners",
+    "logo": "🏬",
+    "city": "Bracknell",
+    "state": "UK",
+    "country": "UK",
+    "trustScore": 981,
+    "rating": 4.41,
+    "reviews": 80,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Auto Components",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Bracknell",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 33,
+    "annualSourcingVolume": "$19M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 158,
+    "endorsements": 25
+  },
+  {
+    "id": "imp-41",
+    "role": "Importer",
+    "name": "Walmart Inc",
+    "logo": "🏬",
+    "city": "Bentonville",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 921,
+    "rating": 4.72,
+    "reviews": 89,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Spices",
+      "Rice",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Bentonville",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 21,
+    "annualSourcingVolume": "$28M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 188,
+    "endorsements": 30
+  },
+  {
+    "id": "imp-42",
+    "role": "Importer",
+    "name": "Costco Wholesale Corporation",
+    "logo": "🏬",
+    "city": "Issaquah",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 864,
+    "rating": 4.95,
+    "reviews": 42,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Tea",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Issaquah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 10,
+    "annualSourcingVolume": "$62M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 127,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-43",
+    "role": "Importer",
+    "name": "The Kroger Co",
+    "logo": "🛒",
+    "city": "Cincinnati",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 974,
+    "rating": 4.88,
+    "reviews": 114,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Cincinnati",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 4,
+    "annualSourcingVolume": "$67M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 133,
+    "endorsements": 36
+  },
+  {
+    "id": "imp-44",
+    "role": "Importer",
+    "name": "Sysco Corporation",
+    "logo": "🚛",
+    "city": "Houston",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 948,
+    "rating": 4.76,
+    "reviews": 97,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Tea",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Houston",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 18,
+    "annualSourcingVolume": "$34M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 93,
+    "endorsements": 33
+  },
+  {
+    "id": "imp-45",
+    "role": "Importer",
+    "name": "US Foods Holding Corp",
+    "logo": "📦",
+    "city": "Rosemont",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 937,
+    "rating": 4.69,
+    "reviews": 25,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Handicrafts",
+      "Rice",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Rosemont",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 14,
+    "annualSourcingVolume": "$13M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 69,
+    "endorsements": 32
+  },
+  {
+    "id": "imp-46",
+    "role": "Importer",
+    "name": "Target Corporation",
+    "logo": "🎯",
+    "city": "Minneapolis",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 833,
+    "rating": 4.9,
+    "reviews": 48,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Coffee",
+      "Pharmaceuticals",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Minneapolis",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 7,
+    "annualSourcingVolume": "$51M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 76,
+    "endorsements": 12
+  },
+  {
+    "id": "imp-47",
+    "role": "Importer",
+    "name": "Whole Foods Market Inc",
+    "logo": "🍎",
+    "city": "Austin",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 839,
+    "rating": 4.97,
+    "reviews": 36,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Tea",
+      "Engineering Goods",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Austin",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 35,
+    "annualSourcingVolume": "$9M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 87,
+    "endorsements": 1
+  },
+  {
+    "id": "imp-48",
+    "role": "Importer",
+    "name": "H-E-B Grocery Company",
+    "logo": "🛒",
+    "city": "San Antonio",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 980,
+    "rating": 4.91,
+    "reviews": 76,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Spices",
+      "Engineering Goods",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of San Antonio",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 21,
+    "annualSourcingVolume": "$82M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 90,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-49",
+    "role": "Importer",
+    "name": "Trader Joe's Company",
+    "logo": "🌴",
+    "city": "Monrovia",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 915,
+    "rating": 4.67,
+    "reviews": 113,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Engineering Goods",
+      "Rice",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CFR",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Monrovia",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 32,
+    "annualSourcingVolume": "$38M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 124,
+    "endorsements": 35
+  },
+  {
+    "id": "imp-50",
+    "role": "Importer",
+    "name": "Albertsons Companies Inc",
+    "logo": "🏬",
+    "city": "Boise",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 901,
+    "rating": 4.56,
+    "reviews": 48,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Chemicals",
+      "Textiles",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Boise",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 18,
+    "annualSourcingVolume": "$111M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 27,
+    "endorsements": 18
+  },
+  {
+    "id": "imp-51",
+    "role": "Importer",
+    "name": "Publix Super Markets Inc",
+    "logo": "🛒",
+    "city": "Lakeland",
+    "state": "USA",
+    "country": "USA",
+    "trustScore": 887,
+    "rating": 4.75,
+    "reviews": 94,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Textiles",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Lakeland",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 26,
+    "annualSourcingVolume": "$50M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 75,
+    "endorsements": 4
+  },
+  {
+    "id": "imp-52",
+    "role": "Importer",
+    "name": "Almarai Company",
+    "logo": "🥛",
+    "city": "Riyadh",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 979,
+    "rating": 4.89,
+    "reviews": 38,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Engineering Goods",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Riyadh",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 9,
+    "annualSourcingVolume": "$65M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 162,
+    "endorsements": 40
+  },
+  {
+    "id": "imp-53",
+    "role": "Importer",
+    "name": "Savola Group",
+    "logo": "🌻",
+    "city": "Jeddah",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 892,
+    "rating": 4.52,
+    "reviews": 62,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Spices",
+      "Pharmaceuticals",
+      "Auto Components",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Jeddah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$105M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 59,
+    "endorsements": 15
+  },
+  {
+    "id": "imp-54",
+    "role": "Importer",
+    "name": "Panda Retail Company",
+    "logo": "🐼",
+    "city": "Jeddah",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 914,
+    "rating": 4.42,
+    "reviews": 61,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Textiles",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Jeddah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 34,
+    "annualSourcingVolume": "$5M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 96,
+    "endorsements": 19
+  },
+  {
+    "id": "imp-55",
+    "role": "Importer",
+    "name": "BinDawood Holding Co",
+    "logo": "🏬",
+    "city": "Jeddah",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 955,
+    "rating": 4.97,
+    "reviews": 92,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Jeddah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$108M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 47,
+    "endorsements": 25
+  },
+  {
+    "id": "imp-56",
+    "role": "Importer",
+    "name": "Al Sadhan Group",
+    "logo": "🛒",
+    "city": "Riyadh",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 924,
+    "rating": 4.75,
+    "reviews": 51,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Engineering Goods",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Riyadh",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 11,
+    "annualSourcingVolume": "$91M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 168,
+    "endorsements": 32
+  },
+  {
+    "id": "imp-57",
+    "role": "Importer",
+    "name": "Tamimi Markets",
+    "logo": "🏬",
+    "city": "Khobar",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 974,
+    "rating": 4.6,
+    "reviews": 56,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Auto Components",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Khobar",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 35,
+    "annualSourcingVolume": "$36M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 107,
+    "endorsements": 18
+  },
+  {
+    "id": "imp-58",
+    "role": "Importer",
+    "name": "Danube Company Limited",
+    "logo": "🛒",
+    "city": "Jeddah",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 942,
+    "rating": 4.94,
+    "reviews": 73,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Handicrafts",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Jeddah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 15,
+    "annualSourcingVolume": "$81M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 30,
+    "endorsements": 13
+  },
+  {
+    "id": "imp-59",
+    "role": "Importer",
+    "name": "Abdullah Al-Othaim Markets",
+    "logo": "🏬",
+    "city": "Riyadh",
+    "state": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "trustScore": 880,
+    "rating": 4.64,
+    "reviews": 7,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Spices",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Riyadh",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 26,
+    "annualSourcingVolume": "$18M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 187,
+    "endorsements": 13
+  },
+  {
+    "id": "imp-60",
+    "role": "Importer",
+    "name": "Seven & i Holdings Co., Ltd.",
+    "logo": "🏬",
+    "city": "Tokyo",
+    "state": "Japan",
+    "country": "Japan",
+    "trustScore": 863,
+    "rating": 4.79,
+    "reviews": 119,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Textiles",
+      "Coffee",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Tokyo",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 23,
+    "annualSourcingVolume": "$26M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 133,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-61",
+    "role": "Importer",
+    "name": "AEON Co., Ltd.",
+    "logo": "🏬",
+    "city": "Chiba",
+    "state": "Japan",
+    "country": "Japan",
+    "trustScore": 930,
+    "rating": 4.55,
+    "reviews": 25,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Tea",
+      "Auto Components",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Chiba",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 19,
+    "annualSourcingVolume": "$120M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 54,
+    "endorsements": 1
+  },
+  {
+    "id": "imp-62",
+    "role": "Importer",
+    "name": "Ito-Yokado Co., Ltd.",
+    "logo": "🛒",
+    "city": "Tokyo",
+    "state": "Japan",
+    "country": "Japan",
+    "trustScore": 939,
+    "rating": 4.91,
+    "reviews": 22,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Tokyo",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 19,
+    "annualSourcingVolume": "$41M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 50,
+    "endorsements": 28
+  },
+  {
+    "id": "imp-63",
+    "role": "Importer",
+    "name": "Meiji Holdings Co., Ltd.",
+    "logo": "🍫",
+    "city": "Tokyo",
+    "state": "Japan",
+    "country": "Japan",
+    "trustScore": 960,
+    "rating": 4.54,
+    "reviews": 37,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Chemicals",
+      "Rice",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Tokyo",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 8,
+    "annualSourcingVolume": "$30M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 93,
+    "endorsements": 31
+  },
+  {
+    "id": "imp-64",
+    "role": "Importer",
+    "name": "Aki Foods Import Corp",
+    "logo": "🍚",
+    "city": "Osaka",
+    "state": "Japan",
+    "country": "Japan",
+    "trustScore": 870,
+    "rating": 4.7,
+    "reviews": 101,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Textiles",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Osaka",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 10,
+    "annualSourcingVolume": "$8M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 105,
+    "endorsements": 35
+  },
+  {
+    "id": "imp-65",
+    "role": "Importer",
+    "name": "Conad Consorzio Nazionale",
+    "logo": "🏬",
+    "city": "Bologna",
+    "state": "Italy",
+    "country": "Italy",
+    "trustScore": 972,
+    "rating": 4.82,
+    "reviews": 27,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Coffee",
+      "Rice",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Bologna",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 7,
+    "annualSourcingVolume": "$116M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 121,
+    "endorsements": 34
+  },
+  {
+    "id": "imp-66",
+    "role": "Importer",
+    "name": "Coop Italia",
+    "logo": "🛒",
+    "city": "Casalecchio di Reno",
+    "state": "Italy",
+    "country": "Italy",
+    "trustScore": 865,
+    "rating": 4.82,
+    "reviews": 92,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Spices",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Casalecchio di Reno",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 7,
+    "annualSourcingVolume": "$44M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 109,
+    "endorsements": 6
+  },
+  {
+    "id": "imp-67",
+    "role": "Importer",
+    "name": "Esselunga S.p.A.",
+    "logo": "🏬",
+    "city": "Limito di Pioltello",
+    "state": "Italy",
+    "country": "Italy",
+    "trustScore": 834,
+    "rating": 4.99,
+    "reviews": 89,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Pharmaceuticals",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Limito di Pioltello",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 4,
+    "annualSourcingVolume": "$118M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 145,
+    "endorsements": 16
+  },
+  {
+    "id": "imp-68",
+    "role": "Importer",
+    "name": "Eurospin Italia S.p.A.",
+    "logo": "🛒",
+    "city": "San Martino Buon Albergo",
+    "state": "Italy",
+    "country": "Italy",
+    "trustScore": 902,
+    "rating": 4.99,
+    "reviews": 106,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Textiles",
+      "Spices",
+      "Tea",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of San Martino Buon Albergo",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 30,
+    "annualSourcingVolume": "$48M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 36,
+    "endorsements": 17
+  },
+  {
+    "id": "imp-69",
+    "role": "Importer",
+    "name": "City Group Bangladesh",
+    "logo": "🏢",
+    "city": "Dhaka",
+    "state": "Bangladesh",
+    "country": "Bangladesh",
+    "trustScore": 861,
+    "rating": 4.49,
+    "reviews": 90,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Textiles",
+      "Handicrafts",
+      "Coffee",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dhaka",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 25,
+    "annualSourcingVolume": "$47M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 30,
+    "endorsements": 23
+  },
+  {
+    "id": "imp-70",
+    "role": "Importer",
+    "name": "Meghna Group of Industries",
+    "logo": "🏭",
+    "city": "Dhaka",
+    "state": "Bangladesh",
+    "country": "Bangladesh",
+    "trustScore": 834,
+    "rating": 4.66,
+    "reviews": 91,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Textiles",
+      "Coffee",
+      "Tea",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dhaka",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 19,
+    "annualSourcingVolume": "$25M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 47,
+    "endorsements": 3
+  },
+  {
+    "id": "imp-71",
+    "role": "Importer",
+    "name": "Akij Group",
+    "logo": "🏢",
+    "city": "Dhaka",
+    "state": "Bangladesh",
+    "country": "Bangladesh",
+    "trustScore": 970,
+    "rating": 4.85,
+    "reviews": 24,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Coffee",
+      "Chemicals",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dhaka",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 8,
+    "annualSourcingVolume": "$57M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 99,
+    "endorsements": 29
+  },
+  {
+    "id": "imp-72",
+    "role": "Importer",
+    "name": "Vingroup JSC",
+    "logo": "🏢",
+    "city": "Hanoi",
+    "state": "Vietnam",
+    "country": "Vietnam",
+    "trustScore": 913,
+    "rating": 4.94,
+    "reviews": 73,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Auto Components",
+      "Rice",
+      "Chemicals"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Hanoi",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 27,
+    "annualSourcingVolume": "$28M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 85,
+    "endorsements": 8
+  },
+  {
+    "id": "imp-73",
+    "role": "Importer",
+    "name": "Masan Group Corporation",
+    "logo": "🥫",
+    "city": "Ho Chi Minh City",
+    "state": "Vietnam",
+    "country": "Vietnam",
+    "trustScore": 864,
+    "rating": 4.91,
+    "reviews": 46,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Textiles",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Ho Chi Minh City",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 23,
+    "annualSourcingVolume": "$24M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 130,
+    "endorsements": 31
+  },
+  {
+    "id": "imp-74",
+    "role": "Importer",
+    "name": "Al Ghurair Foods Distribution",
+    "logo": "🏢",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 900,
+    "rating": 4.42,
+    "reviews": 103,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Handicrafts",
+      "Chemicals",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 25,
+    "annualSourcingVolume": "$77M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 99,
+    "endorsements": 5
+  },
+  {
+    "id": "imp-75",
+    "role": "Importer",
+    "name": "Lulu Group International Imports",
+    "logo": "🏬",
+    "city": "Abu Dhabi",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 865,
+    "rating": 4.76,
+    "reviews": 32,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Pharmaceuticals",
+      "Tea",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "CFR",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Abu Dhabi",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 34,
+    "annualSourcingVolume": "$35M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 185,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-76",
+    "role": "Importer",
+    "name": "Olam Agri Gulf Global Trading",
+    "logo": "🌾",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 966,
+    "rating": 4.57,
+    "reviews": 81,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Pharmaceuticals",
+      "Engineering Goods",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 29,
+    "annualSourcingVolume": "$66M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 82,
+    "endorsements": 8
+  },
+  {
+    "id": "imp-77",
+    "role": "Importer",
+    "name": "Reesha General Trading Wholesale",
+    "logo": "📦",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 880,
+    "rating": 4.76,
+    "reviews": 29,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 23,
+    "annualSourcingVolume": "$74M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 149,
+    "endorsements": 20
+  },
+  {
+    "id": "imp-78",
+    "role": "Importer",
+    "name": "Sunrise Edible Foodstuff Procurement Group",
+    "logo": "🍚",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 932,
+    "rating": 4.86,
+    "reviews": 30,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Textiles",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 23,
+    "annualSourcingVolume": "$65M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 186,
+    "endorsements": 38
+  },
+  {
+    "id": "imp-79",
+    "role": "Importer",
+    "name": "Rice King Foodstuff & Beverages Trading Distribution",
+    "logo": "👑",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 965,
+    "rating": 4.52,
+    "reviews": 71,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$15M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 77,
+    "endorsements": 4
+  },
+  {
+    "id": "imp-80",
+    "role": "Importer",
+    "name": "Gautam General Trading Imports",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 887,
+    "rating": 4.88,
+    "reviews": 10,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Auto Components",
+      "Rice",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "FOB",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 14,
+    "annualSourcingVolume": "$28M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 35,
+    "endorsements": 22
+  },
+  {
+    "id": "imp-81",
+    "role": "Importer",
+    "name": "Al Maya Group Global Trading",
+    "logo": "🛒",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 876,
+    "rating": 4.7,
+    "reviews": 107,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "DDP",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 22,
+    "annualSourcingVolume": "$7M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 166,
+    "endorsements": 9
+  },
+  {
+    "id": "imp-82",
+    "role": "Importer",
+    "name": "Choithrams UAE Wholesale",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 887,
+    "rating": 4.43,
+    "reviews": 55,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Tea",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 33,
+    "annualSourcingVolume": "$42M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 131,
+    "endorsements": 37
+  },
+  {
+    "id": "imp-83",
+    "role": "Importer",
+    "name": "Spinneys Dubai Procurement Group",
+    "logo": "🛒",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 842,
+    "rating": 4.57,
+    "reviews": 114,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Chemicals",
+      "Rice",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CIF",
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 18,
+    "annualSourcingVolume": "$116M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 124,
+    "endorsements": 22
+  },
+  {
+    "id": "imp-84",
+    "role": "Importer",
+    "name": "Carrefour Middle East (Majid Al Futtaim) Distribution",
+    "logo": "🏬",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 970,
+    "rating": 4.46,
+    "reviews": 85,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Chemicals",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 20,
+    "annualSourcingVolume": "$108M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 116,
+    "endorsements": 39
+  },
+  {
+    "id": "imp-85",
+    "role": "Importer",
+    "name": "Al Adil Trading Imports",
+    "logo": "🌶️",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 842,
+    "rating": 4.51,
+    "reviews": 72,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Textiles",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 17,
+    "annualSourcingVolume": "$29M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 94,
+    "endorsements": 34
+  },
+  {
+    "id": "imp-86",
+    "role": "Importer",
+    "name": "Baqer Mohebi Enterprises Global Trading",
+    "logo": "🏢",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 894,
+    "rating": 4.69,
+    "reviews": 87,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Tea",
+      "Coffee",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 21,
+    "annualSourcingVolume": "$116M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 68,
+    "endorsements": 13
+  },
+  {
+    "id": "imp-87",
+    "role": "Importer",
+    "name": "Farzana General Trading Wholesale",
+    "logo": "📦",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 884,
+    "rating": 4.75,
+    "reviews": 70,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Coffee",
+      "Rice",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 18,
+    "annualSourcingVolume": "$41M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 159,
+    "endorsements": 25
+  },
+  {
+    "id": "imp-88",
+    "role": "Importer",
+    "name": "Emirates Food Industries Procurement Group",
+    "logo": "🌾",
+    "city": "Abu Dhabi",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 837,
+    "rating": 4.46,
+    "reviews": 8,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Rice",
+      "Spices",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Abu Dhabi",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$70M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 34,
+    "endorsements": 19
+  },
+  {
+    "id": "imp-89",
+    "role": "Importer",
+    "name": "Federal Foods Distribution",
+    "logo": "🚛",
+    "city": "Dubai",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 857,
+    "rating": 4.51,
+    "reviews": 107,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Auto Components",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "FOB",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Dubai",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 34,
+    "annualSourcingVolume": "$118M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 19,
+    "endorsements": 20
+  },
+  {
+    "id": "imp-90",
+    "role": "Importer",
+    "name": "Global Food Industries Imports",
+    "logo": "🏭",
+    "city": "Sharjah",
+    "state": "UAE",
+    "country": "UAE",
+    "trustScore": 887,
+    "rating": 4.7,
+    "reviews": 87,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Coffee",
+      "Engineering Goods"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Sharjah",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 27,
+    "annualSourcingVolume": "$110M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 36,
+    "endorsements": 21
+  },
+  {
+    "id": "imp-91",
+    "role": "Importer",
+    "name": "METRO AG Global Trading",
+    "logo": "🏬",
+    "city": "Düsseldorf",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 949,
+    "rating": 4.87,
+    "reviews": 33,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Chemicals",
+      "Auto Components",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Düsseldorf",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$43M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 40,
+    "endorsements": 7
+  },
+  {
+    "id": "imp-92",
+    "role": "Importer",
+    "name": "REWE Group Wholesale",
+    "logo": "🛒",
+    "city": "Cologne",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 883,
+    "rating": 4.53,
+    "reviews": 54,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Rice",
+      "Chemicals",
+      "Auto Components",
+      "Coffee"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Cologne",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 19,
+    "annualSourcingVolume": "$34M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 136,
+    "endorsements": 20
+  },
+  {
+    "id": "imp-93",
+    "role": "Importer",
+    "name": "Edeka Group Procurement Group",
+    "logo": "🏬",
+    "city": "Hamburg",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 880,
+    "rating": 4.98,
+    "reviews": 29,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Chemicals",
+      "Rice"
+    ],
+    "preferredIncoterms": [
+      "FOB",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Hamburg",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 17,
+    "annualSourcingVolume": "$8M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 139,
+    "endorsements": 11
+  },
+  {
+    "id": "imp-94",
+    "role": "Importer",
+    "name": "Aldi Nord Distribution",
+    "logo": "🛒",
+    "city": "Essen",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 892,
+    "rating": 4.97,
+    "reviews": 18,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Pharmaceuticals",
+      "Engineering Goods",
+      "Coffee",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "CIF",
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Essen",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 13,
+    "annualSourcingVolume": "$118M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 131,
+    "endorsements": 13
+  },
+  {
+    "id": "imp-95",
+    "role": "Importer",
+    "name": "Aldi Süd Imports",
+    "logo": "🛒",
+    "city": "Mülheim",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 933,
+    "rating": 4.62,
+    "reviews": 108,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Textiles",
+      "Spices",
+      "Pharmaceuticals"
+    ],
+    "preferredIncoterms": [
+      "FOB"
+    ],
+    "preferredPorts": [
+      "Port of Mülheim",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 6,
+    "annualSourcingVolume": "$98M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 35,
+    "endorsements": 27
+  },
+  {
+    "id": "imp-96",
+    "role": "Importer",
+    "name": "Lidl Stiftung &. KG Global Trading",
+    "logo": "🏬",
+    "city": "Neckarsulm",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 947,
+    "rating": 4.62,
+    "reviews": 67,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Spices",
+      "Rice",
+      "Textiles"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Neckarsulm",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 9,
+    "annualSourcingVolume": "$41M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 130,
+    "endorsements": 10
+  },
+  {
+    "id": "imp-97",
+    "role": "Importer",
+    "name": "Schwarz Group Wholesale",
+    "logo": "🏢",
+    "city": "Neckarsulm",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 974,
+    "rating": 4.96,
+    "reviews": 53,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Spices",
+      "Textiles",
+      "Auto Components"
+    ],
+    "preferredIncoterms": [
+      "DDP"
+    ],
+    "preferredPorts": [
+      "Port of Neckarsulm",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 7,
+    "annualSourcingVolume": "$41M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 183,
+    "endorsements": 34
+  },
+  {
+    "id": "imp-98",
+    "role": "Importer",
+    "name": "Genuport Trade GmbH Procurement Group",
+    "logo": "🌍",
+    "city": "Norderstedt",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 949,
+    "rating": 4.99,
+    "reviews": 85,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Engineering Goods",
+      "Tea",
+      "Auto Components",
+      "Handicrafts"
+    ],
+    "preferredIncoterms": [
+      "DDP",
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Norderstedt",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 24,
+    "annualSourcingVolume": "$89M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 64,
+    "endorsements": 27
+  },
+  {
+    "id": "imp-99",
+    "role": "Importer",
+    "name": "BAT Agrar GmbH Distribution",
+    "logo": "🌾",
+    "city": "Ratzeburg",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 934,
+    "rating": 4.76,
+    "reviews": 40,
+    "creditRating": "AAA",
+    "activeDemands": [
+      "Rice",
+      "Pharmaceuticals",
+      "Spices"
+    ],
+    "preferredIncoterms": [
+      "CFR"
+    ],
+    "preferredPorts": [
+      "Port of Ratzeburg",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 31,
+    "annualSourcingVolume": "$8M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 40,
+    "endorsements": 33
+  },
+  {
+    "id": "imp-100",
+    "role": "Importer",
+    "name": "Frutania GmbH Imports",
+    "logo": "🍎",
+    "city": "Grafschaft",
+    "state": "Germany",
+    "country": "Germany",
+    "trustScore": 876,
+    "rating": 4.59,
+    "reviews": 24,
+    "creditRating": "AA",
+    "activeDemands": [
+      "Coffee",
+      "Engineering Goods",
+      "Tea"
+    ],
+    "preferredIncoterms": [
+      "CFR",
+      "CIF"
+    ],
+    "preferredPorts": [
+      "Port of Grafschaft",
+      "Jebel Ali Port, Dubai"
+    ],
+    "yearsActive": 28,
+    "annualSourcingVolume": "$63M",
+    "verificationStatus": "Bank SWIFT Account Audited",
+    "connections": 83,
+    "endorsements": 26
+  }
+]

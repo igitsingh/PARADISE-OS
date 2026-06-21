@@ -1,0 +1,218 @@
+[
+  {
+    "country": "UAE",
+    "topImportsFromIndia": [
+      "Basmati Rice",
+      "Refined Petroleum",
+      "Jewellery",
+      "Spices",
+      "Textiles"
+    ],
+    "requiredCertifications": [
+      "Halal Certification",
+      "Phytosanitary Certificate",
+      "Certificate of Origin",
+      "MOCCAE Import Permit"
+    ],
+    "customsNotes": "Zero customs duty on most essential commodities under India-UAE CEPA. Requires invoice legalization at UAE Embassy.",
+    "popularPorts": [
+      "Jebel Ali Port, Dubai",
+      "Khalifa Port, Abu Dhabi",
+      "Port Rashid"
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "topImportsFromIndia": [
+      "Basmati Rice",
+      "Meat Products",
+      "Organic Chemicals",
+      "Steel Alloys",
+      "Machinery"
+    ],
+    "requiredCertifications": [
+      "SABER Certificate of Conformity",
+      "SFDA Food Registration",
+      "Halal Cert",
+      "Phytosanitary Cert"
+    ],
+    "customsNotes": "Strict compliance with SASO standards. Shipments must match electronic SABER ledger declaration before port clearance.",
+    "popularPorts": [
+      "Jeddah Islamic Port",
+      "King Abdulaziz Port, Dammam",
+      "King Abdullah Port"
+    ]
+  },
+  {
+    "country": "UK",
+    "topImportsFromIndia": [
+      "Apparel & Garments",
+      "Pharmaceutical Formulations",
+      "Spices",
+      "Organic Tea",
+      "Marine Engineering Products"
+    ],
+    "requiredCertifications": [
+      "EU-GMP (Pharma)",
+      "Phytosanitary Certificate",
+      "Certificate of Origin",
+      "UKCA Compliance (Machinery)"
+    ],
+    "customsNotes": "Enforces strict chemical limits under UK REACH. Prefers GOTS certified textile yarns.",
+    "popularPorts": [
+      "Port of Felixstowe",
+      "Port of Southampton",
+      "London Gateway"
+    ]
+  },
+  {
+    "country": "Germany",
+    "topImportsFromIndia": [
+      "Textile Yarns",
+      "API Chemicals",
+      "Specialty Spices",
+      "Engineering Castings",
+      "Organic Tea"
+    ],
+    "requiredCertifications": [
+      "EU REACH Registration",
+      "GOTS Certification (Textiles)",
+      "EU Food Safety Standards",
+      "Phytosanitary Certificate"
+    ],
+    "customsNotes": "Strict limits on pesticide residue (must be under 0.01 mg/kg for grains). Enforces supply chain compliance laws.",
+    "popularPorts": [
+      "Port of Hamburg",
+      "Port of Bremen",
+      "Wilhelmshaven"
+    ]
+  },
+  {
+    "country": "Netherlands",
+    "topImportsFromIndia": [
+      "Industrial Chemicals",
+      "Basmati Grains",
+      "Knitwear Garments",
+      "Automotive Components",
+      "Medicaments"
+    ],
+    "requiredCertifications": [
+      "EU Food Import Inspection",
+      "EU REACH Registration",
+      "WHO-GMP (Pharma)",
+      "Phytosanitary Cert"
+    ],
+    "customsNotes": "Rotterdam Port serves as the gateway to the EU. Random moisture testing conducted on all spice/grain imports.",
+    "popularPorts": [
+      "Port of Rotterdam",
+      "Port of Amsterdam"
+    ]
+  },
+  {
+    "country": "USA",
+    "topImportsFromIndia": [
+      "Generic Pharmaceutical APIs",
+      "Knitwear & Apparel",
+      "Black Pepper & Spices",
+      "Automotive Parts",
+      "Handicrafts"
+    ],
+    "requiredCertifications": [
+      "US FDA Facility Registration",
+      "USDA Organic Certification",
+      "EPA Compliance (Chemicals)",
+      "Phytosanitary Cert"
+    ],
+    "customsNotes": "Subject to sudden FDA Import Alerts on agricultural goods. Strict Lacey Act requirements on wooden handicrafts.",
+    "popularPorts": [
+      "Port of Los Angeles",
+      "Port of New York & New Jersey",
+      "Port of Savannah"
+    ]
+  },
+  {
+    "country": "Japan",
+    "topImportsFromIndia": [
+      "Petroleum Products",
+      "Organic Chemicals",
+      "Marine Products",
+      "Tea",
+      "Textiles"
+    ],
+    "requiredCertifications": [
+      "Certificate of Origin",
+      "Japan Food Sanitation Law Check",
+      "Phytosanitary Certificate"
+    ],
+    "customsNotes": "Enforces zero tolerances on certain post-harvest chemical limits. Prefers organic teas.",
+    "popularPorts": [
+      "Port of Yokohama",
+      "Port of Tokyo",
+      "Port of Kobe"
+    ]
+  },
+  {
+    "country": "Bangladesh",
+    "topImportsFromIndia": [
+      "Cotton Yarn",
+      "Electricity",
+      "Refined Petroleum",
+      "Wheat & Rice",
+      "Chemicals"
+    ],
+    "requiredCertifications": [
+      "BSTI Quality Standard Certificate",
+      "Phytosanitary Certificate",
+      "Certificate of Origin"
+    ],
+    "customsNotes": "Heavy border traffic through Petrapole land port. Letters of Credit must be verified through state banks.",
+    "popularPorts": [
+      "Chittagong Port",
+      "Port of Mongla",
+      "Benapole Land Port"
+    ]
+  },
+  {
+    "country": "Vietnam",
+    "topImportsFromIndia": [
+      "Meat Products",
+      "Steel Castings",
+      "Cotton Yarn",
+      "Synthetic Chemicals",
+      "Pharmaceutical APIs"
+    ],
+    "requiredCertifications": [
+      "Certificate of Origin Form AI",
+      "WHO-GMP Formulations Check",
+      "Animal Quarantine Certificate"
+    ],
+    "customsNotes": "Enforces strict quarantine checks on agro-imports. Gained import duty reductions under India-ASEAN FTA.",
+    "popularPorts": [
+      "Haiphong Port",
+      "Saigon Port, Ho Chi Minh City",
+      "Da Nang Port"
+    ]
+  },
+  {
+    "country": "Italy",
+    "topImportsFromIndia": [
+      "Steel Alloys",
+      "Organic Chemicals",
+      "Knitwear Yarns",
+      "API Chemicals",
+      "Specialty Coffee"
+    ],
+    "requiredCertifications": [
+      "EU REACH (Chemicals)",
+      "EU-GMP (Pharma)",
+      "GOTS Standard (Textiles)",
+      "Phytosanitary Cert"
+    ],
+    "customsNotes": "Trieste port serves as key gateway to Central Europe. Strict customs checks on heavy metal castings.",
+    "popularPorts": [
+      "Port of Genoa",
+      "Port of Trieste",
+      "Port of Naples"
+    ]
+  }
+]

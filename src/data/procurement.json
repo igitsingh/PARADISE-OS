@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "proc-1",
+    "role": "Procurement",
+    "name": "Unilever Global Sourcing",
+    "type": "Procurement Team",
+    "logo": "🤝",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "trustScore": 970,
+    "sourcingMandate": "Global acquisition of food grains, spice oleoresins, organic oils, and packaging textiles.",
+    "annualSpend": "$840M",
+    "teamSize": 45,
+    "partners": [
+      "Synthite Industries Pvt Ltd",
+      "KPR Mill Limited"
+    ],
+    "activeMandates": [
+      "400 MT Lakadong Turmeric",
+      "10,000 kg Combed Cotton Yarns"
+    ],
+    "connections": 520,
+    "endorsements": 190
+  },
+  {
+    "id": "proc-2",
+    "role": "Procurement",
+    "name": "Nestlé Procurement Division",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Vevey",
+    "country": "Switzerland",
+    "trustScore": 916,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$305M",
+    "teamSize": 40,
+    "partners": [
+      "exp-31",
+      "exp-72"
+    ],
+    "activeMandates": [
+      "347 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 185,
+    "endorsements": 27
+  },
+  {
+    "id": "proc-3",
+    "role": "Procurement",
+    "name": "Procter & Gamble Global Product Sourcing",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Cincinnati",
+    "country": "USA",
+    "trustScore": 838,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$284M",
+    "teamSize": 19,
+    "partners": [
+      "exp-27",
+      "exp-99"
+    ],
+    "activeMandates": [
+      "347 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 198,
+    "endorsements": 23
+  },
+  {
+    "id": "proc-4",
+    "role": "Procurement",
+    "name": "Mondelez International Raw Material Procurement",
+    "type": "Procurement Team",
+    "logo": "🍫",
+    "city": "Chicago",
+    "country": "USA",
+    "trustScore": 965,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$268M",
+    "teamSize": 49,
+    "partners": [
+      "exp-30",
+      "exp-53"
+    ],
+    "activeMandates": [
+      "417 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 98,
+    "endorsements": 56
+  },
+  {
+    "id": "proc-5",
+    "role": "Procurement",
+    "name": "Kraft Heinz Sourcing LLC",
+    "type": "Procurement Team",
+    "logo": "🍅",
+    "city": "Pittsburgh",
+    "country": "USA",
+    "trustScore": 950,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$34M",
+    "teamSize": 17,
+    "partners": [
+      "exp-29",
+      "exp-73"
+    ],
+    "activeMandates": [
+      "344 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 66,
+    "endorsements": 81
+  },
+  {
+    "id": "proc-6",
+    "role": "Procurement",
+    "name": "Cargill Trade Services",
+    "type": "Buying House",
+    "logo": "📈",
+    "city": "Wayzata",
+    "country": "USA",
+    "trustScore": 959,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$129M",
+    "teamSize": 17,
+    "partners": [
+      "exp-40",
+      "exp-87"
+    ],
+    "activeMandates": [
+      "263 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 187,
+    "endorsements": 41
+  },
+  {
+    "id": "proc-7",
+    "role": "Procurement",
+    "name": "ADM Europe Grains Sourcing",
+    "type": "Procurement Team",
+    "logo": "🌾",
+    "city": "Rolle",
+    "country": "Switzerland",
+    "trustScore": 898,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$460M",
+    "teamSize": 41,
+    "partners": [
+      "exp-35",
+      "exp-61"
+    ],
+    "activeMandates": [
+      "197 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 150,
+    "endorsements": 26
+  },
+  {
+    "id": "proc-8",
+    "role": "Procurement",
+    "name": "Bunge Global Agro-Sourcing",
+    "type": "Procurement Team",
+    "logo": "🌽",
+    "city": "St. Louis",
+    "country": "USA",
+    "trustScore": 846,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$584M",
+    "teamSize": 36,
+    "partners": [
+      "exp-26",
+      "exp-90"
+    ],
+    "activeMandates": [
+      "378 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 263,
+    "endorsements": 71
+  },
+  {
+    "id": "proc-9",
+    "role": "Procurement",
+    "name": "Louis Dreyfus Company Agricultural Sourcing",
+    "type": "Buying House",
+    "logo": "🚢",
+    "city": "Paris",
+    "country": "France",
+    "trustScore": 967,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$162M",
+    "teamSize": 15,
+    "partners": [
+      "exp-27",
+      "exp-100"
+    ],
+    "activeMandates": [
+      "173 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 104,
+    "endorsements": 55
+  },
+  {
+    "id": "proc-10",
+    "role": "Procurement",
+    "name": "COFCO International Sourcing Office",
+    "type": "Procurement Team",
+    "logo": "🇨🇳",
+    "city": "Geneva",
+    "country": "China",
+    "trustScore": 934,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$27M",
+    "teamSize": 23,
+    "partners": [
+      "exp-4",
+      "exp-94"
+    ],
+    "activeMandates": [
+      "165 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 205,
+    "endorsements": 14
+  },
+  {
+    "id": "proc-11",
+    "role": "Procurement",
+    "name": "Li & Fung Sourcing Agency",
+    "type": "Buying House",
+    "logo": "🤝",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 971,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$520M",
+    "teamSize": 11,
+    "partners": [
+      "exp-49",
+      "exp-87"
+    ],
+    "activeMandates": [
+      "102 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 265,
+    "endorsements": 37
+  },
+  {
+    "id": "proc-12",
+    "role": "Procurement",
+    "name": "Target Sourcing Services Group",
+    "type": "Procurement Team",
+    "logo": "🎯",
+    "city": "Minneapolis",
+    "country": "USA",
+    "trustScore": 832,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$74M",
+    "teamSize": 5,
+    "partners": [
+      "exp-27",
+      "exp-80"
+    ],
+    "activeMandates": [
+      "398 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 240,
+    "endorsements": 30
+  },
+  {
+    "id": "proc-13",
+    "role": "Procurement",
+    "name": "Walmart Global Sourcing Hub",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 913,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$600M",
+    "teamSize": 14,
+    "partners": [
+      "exp-26",
+      "exp-60"
+    ],
+    "activeMandates": [
+      "220 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 280,
+    "endorsements": 43
+  },
+  {
+    "id": "proc-14",
+    "role": "Procurement",
+    "name": "IKEA Purchasing & Logistics Area South Asia",
+    "type": "Procurement Team",
+    "logo": "🛋️",
+    "city": "Älmhult",
+    "country": "Sweden",
+    "trustScore": 960,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$459M",
+    "teamSize": 8,
+    "partners": [
+      "exp-17",
+      "exp-58"
+    ],
+    "activeMandates": [
+      "268 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 169,
+    "endorsements": 83
+  },
+  {
+    "id": "proc-15",
+    "role": "Procurement",
+    "name": "H&M Global Production & Sourcing Office",
+    "type": "Procurement Team",
+    "logo": "🧥",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "trustScore": 979,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$470M",
+    "teamSize": 7,
+    "partners": [
+      "exp-31",
+      "exp-59"
+    ],
+    "activeMandates": [
+      "475 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 33,
+    "endorsements": 68
+  },
+  {
+    "id": "proc-16",
+    "role": "Procurement",
+    "name": "Inditex Global Sourcing (Zara)",
+    "type": "Procurement Team",
+    "logo": "👗",
+    "city": "Arteixo",
+    "country": "Spain",
+    "trustScore": 828,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$111M",
+    "teamSize": 39,
+    "partners": [
+      "exp-23",
+      "exp-89"
+    ],
+    "activeMandates": [
+      "248 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 294,
+    "endorsements": 24
+  },
+  {
+    "id": "proc-17",
+    "role": "Procurement",
+    "name": "Gap Inc. Global Sourcing Division",
+    "type": "Procurement Team",
+    "logo": "👖",
+    "city": "San Francisco",
+    "country": "USA",
+    "trustScore": 979,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$344M",
+    "teamSize": 47,
+    "partners": [
+      "exp-7",
+      "exp-84"
+    ],
+    "activeMandates": [
+      "204 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 207,
+    "endorsements": 32
+  },
+  {
+    "id": "proc-18",
+    "role": "Procurement",
+    "name": "Nike Global Sourcing & Manufacturing",
+    "type": "Procurement Team",
+    "logo": "👟",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 856,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$189M",
+    "teamSize": 29,
+    "partners": [
+      "exp-39",
+      "exp-60"
+    ],
+    "activeMandates": [
+      "275 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 155,
+    "endorsements": 85
+  },
+  {
+    "id": "proc-19",
+    "role": "Procurement",
+    "name": "ITC Limited Agri-Business Division",
+    "type": "Buying House",
+    "logo": "🌾",
+    "city": "Guntur",
+    "country": "India",
+    "trustScore": 880,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$186M",
+    "teamSize": 45,
+    "partners": [
+      "exp-31",
+      "exp-87"
+    ],
+    "activeMandates": [
+      "430 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 98,
+    "endorsements": 64
+  },
+  {
+    "id": "proc-20",
+    "role": "Procurement",
+    "name": "Adani Global Sourcing Pte Ltd",
+    "type": "Buying House",
+    "logo": "🏢",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 848,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$384M",
+    "teamSize": 22,
+    "partners": [
+      "exp-41",
+      "exp-74"
+    ],
+    "activeMandates": [
+      "256 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 290,
+    "endorsements": 42
+  },
+  {
+    "id": "proc-21",
+    "role": "Procurement",
+    "name": "Olam International Global Buying Office",
+    "type": "Procurement Team",
+    "logo": "🌍",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 849,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$52M",
+    "teamSize": 33,
+    "partners": [
+      "exp-49",
+      "exp-65"
+    ],
+    "activeMandates": [
+      "296 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 53,
+    "endorsements": 11
+  },
+  {
+    "id": "proc-22",
+    "role": "Procurement",
+    "name": "Wilmar International Procurement",
+    "type": "Procurement Team",
+    "logo": "🌴",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 876,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$339M",
+    "teamSize": 48,
+    "partners": [
+      "exp-6",
+      "exp-74"
+    ],
+    "activeMandates": [
+      "170 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 15,
+    "endorsements": 63
+  },
+  {
+    "id": "proc-23",
+    "role": "Procurement",
+    "name": "East India Sourcing Agency",
+    "type": "Buying House",
+    "logo": "🤝",
+    "city": "London",
+    "country": "UK",
+    "trustScore": 950,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$99M",
+    "teamSize": 36,
+    "partners": [
+      "exp-31",
+      "exp-56"
+    ],
+    "activeMandates": [
+      "373 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 161,
+    "endorsements": 87
+  },
+  {
+    "id": "proc-24",
+    "role": "Procurement",
+    "name": "Landmark Group Sourcing & Procurement Office",
+    "type": "Procurement Team",
+    "logo": "🏢",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 938,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$442M",
+    "teamSize": 47,
+    "partners": [
+      "exp-49",
+      "exp-74"
+    ],
+    "activeMandates": [
+      "149 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 45,
+    "endorsements": 23
+  },
+  {
+    "id": "proc-25",
+    "role": "Procurement",
+    "name": "Majid Al Futtaim Retail Sourcing Division",
+    "type": "Procurement Team",
+    "logo": "🏬",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 919,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$579M",
+    "teamSize": 47,
+    "partners": [
+      "exp-47",
+      "exp-76"
+    ],
+    "activeMandates": [
+      "294 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 52,
+    "endorsements": 65
+  },
+  {
+    "id": "proc-26",
+    "role": "Procurement",
+    "name": "Sobha Realty Group Procurement Division",
+    "type": "Procurement Team",
+    "logo": "🏗️",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 912,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$290M",
+    "teamSize": 5,
+    "partners": [
+      "exp-30",
+      "exp-59"
+    ],
+    "activeMandates": [
+      "306 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 14,
+    "endorsements": 26
+  },
+  {
+    "id": "proc-27",
+    "role": "Procurement",
+    "name": "Apparel Group Global Sourcing Division",
+    "type": "Procurement Team",
+    "logo": "👚",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 842,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$125M",
+    "teamSize": 13,
+    "partners": [
+      "exp-33",
+      "exp-69"
+    ],
+    "activeMandates": [
+      "496 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 251,
+    "endorsements": 66
+  },
+  {
+    "id": "proc-28",
+    "role": "Procurement",
+    "name": "Tesco Global Sourcing UK & Asia",
+    "type": "Buying House",
+    "logo": "👥",
+    "city": "London",
+    "country": "UK",
+    "trustScore": 826,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$474M",
+    "teamSize": 44,
+    "partners": [
+      "exp-16",
+      "exp-95"
+    ],
+    "activeMandates": [
+      "466 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 248,
+    "endorsements": 58
+  },
+  {
+    "id": "proc-29",
+    "role": "Procurement",
+    "name": "Unilever Global Sourcing Agency",
+    "type": "Procurement Team",
+    "logo": "🤝",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "trustScore": 923,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$287M",
+    "teamSize": 30,
+    "partners": [
+      "exp-6",
+      "exp-73"
+    ],
+    "activeMandates": [
+      "119 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 262,
+    "endorsements": 81
+  },
+  {
+    "id": "proc-30",
+    "role": "Procurement",
+    "name": "Nestlé Procurement Division Buying Office",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Vevey",
+    "country": "Switzerland",
+    "trustScore": 949,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$463M",
+    "teamSize": 26,
+    "partners": [
+      "exp-49",
+      "exp-100"
+    ],
+    "activeMandates": [
+      "238 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 186,
+    "endorsements": 84
+  },
+  {
+    "id": "proc-31",
+    "role": "Procurement",
+    "name": "Procter & Gamble Global Product Sourcing Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Cincinnati",
+    "country": "USA",
+    "trustScore": 871,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$572M",
+    "teamSize": 6,
+    "partners": [
+      "exp-26",
+      "exp-98"
+    ],
+    "activeMandates": [
+      "293 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 257,
+    "endorsements": 88
+  },
+  {
+    "id": "proc-32",
+    "role": "Procurement",
+    "name": "Mondelez International Raw Material Procurement Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🍫",
+    "city": "Chicago",
+    "country": "USA",
+    "trustScore": 948,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$46M",
+    "teamSize": 19,
+    "partners": [
+      "exp-30",
+      "exp-89"
+    ],
+    "activeMandates": [
+      "385 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 214,
+    "endorsements": 58
+  },
+  {
+    "id": "proc-33",
+    "role": "Procurement",
+    "name": "Kraft Heinz Sourcing Agency",
+    "type": "Procurement Team",
+    "logo": "🍅",
+    "city": "Pittsburgh",
+    "country": "USA",
+    "trustScore": 916,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$198M",
+    "teamSize": 39,
+    "partners": [
+      "exp-48",
+      "exp-52"
+    ],
+    "activeMandates": [
+      "55 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 81,
+    "endorsements": 57
+  },
+  {
+    "id": "proc-34",
+    "role": "Procurement",
+    "name": "Cargill Trade Services Buying Office",
+    "type": "Buying House",
+    "logo": "📈",
+    "city": "Wayzata",
+    "country": "USA",
+    "trustScore": 955,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$261M",
+    "teamSize": 44,
+    "partners": [
+      "exp-16",
+      "exp-98"
+    ],
+    "activeMandates": [
+      "210 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 106,
+    "endorsements": 66
+  },
+  {
+    "id": "proc-35",
+    "role": "Procurement",
+    "name": "ADM Europe Grains Sourcing Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "🌾",
+    "city": "Rolle",
+    "country": "Switzerland",
+    "trustScore": 936,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$532M",
+    "teamSize": 42,
+    "partners": [
+      "exp-32",
+      "exp-96"
+    ],
+    "activeMandates": [
+      "127 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 141,
+    "endorsements": 75
+  },
+  {
+    "id": "proc-36",
+    "role": "Procurement",
+    "name": "Bunge Global Agro-Sourcing Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🌽",
+    "city": "St. Louis",
+    "country": "USA",
+    "trustScore": 980,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$282M",
+    "teamSize": 26,
+    "partners": [
+      "exp-2",
+      "exp-62"
+    ],
+    "activeMandates": [
+      "154 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 128,
+    "endorsements": 67
+  },
+  {
+    "id": "proc-37",
+    "role": "Procurement",
+    "name": "Louis Dreyfus Company Agricultural Sourcing Agency",
+    "type": "Buying House",
+    "logo": "🚢",
+    "city": "Paris",
+    "country": "France",
+    "trustScore": 883,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$92M",
+    "teamSize": 28,
+    "partners": [
+      "exp-12",
+      "exp-94"
+    ],
+    "activeMandates": [
+      "387 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 78,
+    "endorsements": 17
+  },
+  {
+    "id": "proc-38",
+    "role": "Procurement",
+    "name": "COFCO International Sourcing Office Buying Office",
+    "type": "Procurement Team",
+    "logo": "🇨🇳",
+    "city": "Geneva",
+    "country": "China",
+    "trustScore": 940,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$140M",
+    "teamSize": 31,
+    "partners": [
+      "exp-13",
+      "exp-51"
+    ],
+    "activeMandates": [
+      "416 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 239,
+    "endorsements": 63
+  },
+  {
+    "id": "proc-39",
+    "role": "Procurement",
+    "name": "Li & Fung Sourcing Agency Sourcing Alliance",
+    "type": "Buying House",
+    "logo": "🤝",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 929,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$551M",
+    "teamSize": 32,
+    "partners": [
+      "exp-11",
+      "exp-100"
+    ],
+    "activeMandates": [
+      "168 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 195,
+    "endorsements": 31
+  },
+  {
+    "id": "proc-40",
+    "role": "Procurement",
+    "name": "Target Sourcing Services Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🎯",
+    "city": "Minneapolis",
+    "country": "USA",
+    "trustScore": 972,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$330M",
+    "teamSize": 31,
+    "partners": [
+      "exp-17",
+      "exp-56"
+    ],
+    "activeMandates": [
+      "199 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 124,
+    "endorsements": 6
+  },
+  {
+    "id": "proc-41",
+    "role": "Procurement",
+    "name": "Walmart Global Sourcing Hub Agency",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 903,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$455M",
+    "teamSize": 21,
+    "partners": [
+      "exp-16",
+      "exp-86"
+    ],
+    "activeMandates": [
+      "457 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 286,
+    "endorsements": 54
+  },
+  {
+    "id": "proc-42",
+    "role": "Procurement",
+    "name": "IKEA Purchasing & Logistics Area South Asia Buying Office",
+    "type": "Procurement Team",
+    "logo": "🛋️",
+    "city": "Älmhult",
+    "country": "Sweden",
+    "trustScore": 921,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$160M",
+    "teamSize": 33,
+    "partners": [
+      "exp-50",
+      "exp-98"
+    ],
+    "activeMandates": [
+      "330 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 143,
+    "endorsements": 36
+  },
+  {
+    "id": "proc-43",
+    "role": "Procurement",
+    "name": "H&M Global Production & Sourcing Office Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "🧥",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "trustScore": 915,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$362M",
+    "teamSize": 32,
+    "partners": [
+      "exp-26",
+      "exp-56"
+    ],
+    "activeMandates": [
+      "440 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 23,
+    "endorsements": 84
+  },
+  {
+    "id": "proc-44",
+    "role": "Procurement",
+    "name": "Inditex Global Sourcing (Zara) Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "👗",
+    "city": "Arteixo",
+    "country": "Spain",
+    "trustScore": 886,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$135M",
+    "teamSize": 35,
+    "partners": [
+      "exp-17",
+      "exp-97"
+    ],
+    "activeMandates": [
+      "75 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 133,
+    "endorsements": 31
+  },
+  {
+    "id": "proc-45",
+    "role": "Procurement",
+    "name": "Gap. Global Sourcing Division Agency",
+    "type": "Procurement Team",
+    "logo": "👖",
+    "city": "San Francisco",
+    "country": "USA",
+    "trustScore": 900,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$139M",
+    "teamSize": 35,
+    "partners": [
+      "exp-4",
+      "exp-97"
+    ],
+    "activeMandates": [
+      "491 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 13,
+    "endorsements": 41
+  },
+  {
+    "id": "proc-46",
+    "role": "Procurement",
+    "name": "Nike Global Sourcing & Manufacturing Buying Office",
+    "type": "Procurement Team",
+    "logo": "👟",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 978,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$230M",
+    "teamSize": 11,
+    "partners": [
+      "exp-9",
+      "exp-72"
+    ],
+    "activeMandates": [
+      "367 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 59,
+    "endorsements": 61
+  },
+  {
+    "id": "proc-47",
+    "role": "Procurement",
+    "name": "ITC Limited Agri-Business Division Sourcing Alliance",
+    "type": "Buying House",
+    "logo": "🌾",
+    "city": "Guntur",
+    "country": "India",
+    "trustScore": 875,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$314M",
+    "teamSize": 42,
+    "partners": [
+      "exp-22",
+      "exp-86"
+    ],
+    "activeMandates": [
+      "212 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 167,
+    "endorsements": 33
+  },
+  {
+    "id": "proc-48",
+    "role": "Procurement",
+    "name": "Adani Global Sourcing Pte Ltd Procurement Desk",
+    "type": "Buying House",
+    "logo": "🏢",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 947,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$112M",
+    "teamSize": 50,
+    "partners": [
+      "exp-29",
+      "exp-58"
+    ],
+    "activeMandates": [
+      "216 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 63,
+    "endorsements": 68
+  },
+  {
+    "id": "proc-49",
+    "role": "Procurement",
+    "name": "Olam International Global Buying Office Agency",
+    "type": "Procurement Team",
+    "logo": "🌍",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 930,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$211M",
+    "teamSize": 46,
+    "partners": [
+      "exp-17",
+      "exp-88"
+    ],
+    "activeMandates": [
+      "194 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 218,
+    "endorsements": 18
+  },
+  {
+    "id": "proc-50",
+    "role": "Procurement",
+    "name": "Wilmar International Procurement Buying Office",
+    "type": "Procurement Team",
+    "logo": "🌴",
+    "city": "Singapore",
+    "country": "Singapore",
+    "trustScore": 915,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$169M",
+    "teamSize": 12,
+    "partners": [
+      "exp-7",
+      "exp-96"
+    ],
+    "activeMandates": [
+      "227 MT Foodstuffs",
+      "4k units Woven Fabrics"
+    ],
+    "connections": 35,
+    "endorsements": 88
+  },
+  {
+    "id": "proc-51",
+    "role": "Procurement",
+    "name": "East India Sourcing Agency Sourcing Alliance",
+    "type": "Buying House",
+    "logo": "🤝",
+    "city": "London",
+    "country": "UK",
+    "trustScore": 821,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$214M",
+    "teamSize": 13,
+    "partners": [
+      "exp-31",
+      "exp-61"
+    ],
+    "activeMandates": [
+      "372 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 46,
+    "endorsements": 65
+  },
+  {
+    "id": "proc-52",
+    "role": "Procurement",
+    "name": "Landmark Sourcing & Procurement Office Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🏢",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 953,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$431M",
+    "teamSize": 15,
+    "partners": [
+      "exp-5",
+      "exp-63"
+    ],
+    "activeMandates": [
+      "187 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 104,
+    "endorsements": 46
+  },
+  {
+    "id": "proc-53",
+    "role": "Procurement",
+    "name": "Majid Al Futtaim Retail Sourcing Division Agency",
+    "type": "Procurement Team",
+    "logo": "🏬",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 952,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$456M",
+    "teamSize": 36,
+    "partners": [
+      "exp-14",
+      "exp-79"
+    ],
+    "activeMandates": [
+      "341 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 69,
+    "endorsements": 30
+  },
+  {
+    "id": "proc-54",
+    "role": "Procurement",
+    "name": "Sobha Realty Procurement Division Buying Office",
+    "type": "Procurement Team",
+    "logo": "🏗️",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 949,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$561M",
+    "teamSize": 48,
+    "partners": [
+      "exp-38",
+      "exp-89"
+    ],
+    "activeMandates": [
+      "311 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 106,
+    "endorsements": 10
+  },
+  {
+    "id": "proc-55",
+    "role": "Procurement",
+    "name": "Apparel Global Sourcing Division Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "👚",
+    "city": "Dubai",
+    "country": "UAE",
+    "trustScore": 878,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$239M",
+    "teamSize": 8,
+    "partners": [
+      "exp-11",
+      "exp-56"
+    ],
+    "activeMandates": [
+      "145 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 161,
+    "endorsements": 88
+  },
+  {
+    "id": "proc-56",
+    "role": "Procurement",
+    "name": "Tesco Global Sourcing UK & Asia Procurement Desk",
+    "type": "Buying House",
+    "logo": "👥",
+    "city": "London",
+    "country": "UK",
+    "trustScore": 882,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$365M",
+    "teamSize": 41,
+    "partners": [
+      "exp-29",
+      "exp-77"
+    ],
+    "activeMandates": [
+      "210 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 189,
+    "endorsements": 48
+  },
+  {
+    "id": "proc-57",
+    "role": "Procurement",
+    "name": "Unilever Global Sourcing Agency",
+    "type": "Procurement Team",
+    "logo": "🤝",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "trustScore": 827,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$93M",
+    "teamSize": 21,
+    "partners": [
+      "exp-2",
+      "exp-100"
+    ],
+    "activeMandates": [
+      "108 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 50,
+    "endorsements": 73
+  },
+  {
+    "id": "proc-58",
+    "role": "Procurement",
+    "name": "Nestlé Procurement Division Buying Office",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Vevey",
+    "country": "Switzerland",
+    "trustScore": 857,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$553M",
+    "teamSize": 34,
+    "partners": [
+      "exp-50",
+      "exp-97"
+    ],
+    "activeMandates": [
+      "432 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 279,
+    "endorsements": 50
+  },
+  {
+    "id": "proc-59",
+    "role": "Procurement",
+    "name": "Procter & Gamble Global Product Sourcing Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Cincinnati",
+    "country": "USA",
+    "trustScore": 969,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$503M",
+    "teamSize": 20,
+    "partners": [
+      "exp-37",
+      "exp-78"
+    ],
+    "activeMandates": [
+      "262 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 136,
+    "endorsements": 10
+  },
+  {
+    "id": "proc-60",
+    "role": "Procurement",
+    "name": "Mondelez International Raw Material Procurement Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🍫",
+    "city": "Chicago",
+    "country": "USA",
+    "trustScore": 971,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$498M",
+    "teamSize": 20,
+    "partners": [
+      "exp-3",
+      "exp-87"
+    ],
+    "activeMandates": [
+      "196 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 127,
+    "endorsements": 64
+  },
+  {
+    "id": "proc-61",
+    "role": "Procurement",
+    "name": "Kraft Heinz Sourcing Agency",
+    "type": "Procurement Team",
+    "logo": "🍅",
+    "city": "Pittsburgh",
+    "country": "USA",
+    "trustScore": 934,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$281M",
+    "teamSize": 48,
+    "partners": [
+      "exp-26",
+      "exp-80"
+    ],
+    "activeMandates": [
+      "367 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 206,
+    "endorsements": 40
+  },
+  {
+    "id": "proc-62",
+    "role": "Procurement",
+    "name": "Cargill Trade Services Buying Office",
+    "type": "Buying House",
+    "logo": "📈",
+    "city": "Wayzata",
+    "country": "USA",
+    "trustScore": 840,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$280M",
+    "teamSize": 18,
+    "partners": [
+      "exp-44",
+      "exp-100"
+    ],
+    "activeMandates": [
+      "262 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 246,
+    "endorsements": 70
+  },
+  {
+    "id": "proc-63",
+    "role": "Procurement",
+    "name": "ADM Europe Grains Sourcing Sourcing Alliance",
+    "type": "Procurement Team",
+    "logo": "🌾",
+    "city": "Rolle",
+    "country": "Switzerland",
+    "trustScore": 823,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$450M",
+    "teamSize": 14,
+    "partners": [
+      "exp-35",
+      "exp-85"
+    ],
+    "activeMandates": [
+      "78 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 176,
+    "endorsements": 48
+  },
+  {
+    "id": "proc-64",
+    "role": "Procurement",
+    "name": "Bunge Global Agro-Sourcing Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🌽",
+    "city": "St. Louis",
+    "country": "USA",
+    "trustScore": 833,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$548M",
+    "teamSize": 42,
+    "partners": [
+      "exp-37",
+      "exp-77"
+    ],
+    "activeMandates": [
+      "184 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 144,
+    "endorsements": 12
+  },
+  {
+    "id": "proc-65",
+    "role": "Procurement",
+    "name": "Louis Dreyfus Company Agricultural Sourcing Agency",
+    "type": "Buying House",
+    "logo": "🚢",
+    "city": "Paris",
+    "country": "France",
+    "trustScore": 883,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$576M",
+    "teamSize": 36,
+    "partners": [
+      "exp-28",
+      "exp-56"
+    ],
+    "activeMandates": [
+      "194 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 187,
+    "endorsements": 65
+  },
+  {
+    "id": "proc-66",
+    "role": "Procurement",
+    "name": "COFCO International Sourcing Office Buying Office",
+    "type": "Procurement Team",
+    "logo": "🇨🇳",
+    "city": "Geneva",
+    "country": "China",
+    "trustScore": 965,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$446M",
+    "teamSize": 49,
+    "partners": [
+      "exp-5",
+      "exp-65"
+    ],
+    "activeMandates": [
+      "107 MT Foodstuffs",
+      "5k units Woven Fabrics"
+    ],
+    "connections": 156,
+    "endorsements": 58
+  },
+  {
+    "id": "proc-67",
+    "role": "Procurement",
+    "name": "Li & Fung Sourcing Agency Sourcing Alliance",
+    "type": "Buying House",
+    "logo": "🤝",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 962,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$328M",
+    "teamSize": 13,
+    "partners": [
+      "exp-45",
+      "exp-55"
+    ],
+    "activeMandates": [
+      "51 MT Foodstuffs",
+      "3k units Woven Fabrics"
+    ],
+    "connections": 188,
+    "endorsements": 71
+  },
+  {
+    "id": "proc-68",
+    "role": "Procurement",
+    "name": "Target Sourcing Services Procurement Desk",
+    "type": "Procurement Team",
+    "logo": "🎯",
+    "city": "Minneapolis",
+    "country": "USA",
+    "trustScore": 841,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$528M",
+    "teamSize": 36,
+    "partners": [
+      "exp-30",
+      "exp-78"
+    ],
+    "activeMandates": [
+      "58 MT Foodstuffs",
+      "2k units Woven Fabrics"
+    ],
+    "connections": 193,
+    "endorsements": 12
+  },
+  {
+    "id": "proc-69",
+    "role": "Procurement",
+    "name": "Walmart Global Sourcing Hub Agency",
+    "type": "Procurement Team",
+    "logo": "👥",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "trustScore": 890,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$86M",
+    "teamSize": 18,
+    "partners": [
+      "exp-15",
+      "exp-82"
+    ],
+    "activeMandates": [
+      "223 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 74,
+    "endorsements": 54
+  },
+  {
+    "id": "proc-70",
+    "role": "Procurement",
+    "name": "IKEA Purchasing & Logistics Area South Asia Buying Office",
+    "type": "Procurement Team",
+    "logo": "🛋️",
+    "city": "Älmhult",
+    "country": "Sweden",
+    "trustScore": 906,
+    "sourcingMandate": "Corporate purchasing agency acquiring goods for international networks.",
+    "annualSpend": "$415M",
+    "teamSize": 6,
+    "partners": [
+      "exp-14",
+      "exp-58"
+    ],
+    "activeMandates": [
+      "159 MT Foodstuffs",
+      "1k units Woven Fabrics"
+    ],
+    "connections": 249,
+    "endorsements": 5
+  }
+]
