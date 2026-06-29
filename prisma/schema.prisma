@@ -1,0 +1,641 @@
+// -----------------------------------------------------------------------------
+// PARADISE OS — SPRINT 3 INTELLIGENCE ENGINE (PIP)
+// Governed by the Paradise OS Constitution v1.0
+// -----------------------------------------------------------------------------
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// -----------------------------------------------------------------------------
+// 0. ENTITY LIFECYCLE & RESEARCH ENGINE (PRE)
+// -----------------------------------------------------------------------------
+
+enum LifecycleStage {
+  DISCOVERED
+  QUEUED
+  RESEARCHING
+  EVIDENCE_COLLECTED
+  VERIFICATION
+  APPROVED
+  KNOWLEDGE_GRAPH_UPDATED
+  MONITORING
+  ARCHIVED
+}
+
+enum ResearchPriority {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+model ResearchJob {
+  id    String @id @default(uuid())
+  title String
+
+  targetEntityId   String
+  targetEntityType String
+
+  status   LifecycleStage   @default(QUEUED)
+  priority ResearchPriority @default(MEDIUM)
+  progress Float            @default(0.0)
+
+  // Specific intelligence gap being targeted (e.g., 'COA', 'Heavy Metals Report')
+  missingDataCategory String?
+
+  assigneeId String?
+  assignee   User?   @relation(fields: [assigneeId], references: [id])
+
+  completionReport String? @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  evidenceCollected Evidence[]
+  documentsAttached Document[]
+  entityChanges     EntityChange[]
+}
+
+model EntityChange {
+  id          String @id @default(uuid())
+  entityType  String
+  entityId    String
+  changeType  String
+  description String @db.Text
+
+  previousValue Json?
+  newValue      Json?
+
+  researchJobId String?
+  researchJob   ResearchJob? @relation(fields: [researchJobId], references: [id])
+
+  createdAt DateTime @default(now())
+}
+
+// -----------------------------------------------------------------------------
+// 1. AUTHENTICATION & USERS
+// -----------------------------------------------------------------------------
+
+enum Role {
+  FOUNDER
+  BROTHER
+  RESEARCHER
+  OPERATIONS
+  QUALITY
+  SALES
+  PROCUREMENT
+  GUEST
+  AUDITOR
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String?
+  role      Role     @default(GUEST)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Relations
+  uploadedDocuments Document[]
+  tasksAssigned     Task[]        @relation("AssignedTasks")
+  tasksCreated      Task[]        @relation("CreatedTasks")
+  meetings          Meeting[]
+  researchJobs      ResearchJob[]
+}
+
+// -----------------------------------------------------------------------------
+// 2. DOCUMENT VAULT
+// -----------------------------------------------------------------------------
+
+enum DocumentType {
+  CONTRACT
+  COA
+  NDA
+  CERTIFICATION
+  RESEARCH_PAPER
+  BILL_OF_LADING
+  MARKETING_MATERIAL
+  OTHER
+}
+
+model Document {
+  id           String       @id @default(uuid())
+  title        String
+  fileUrl      String
+  documentType DocumentType @default(OTHER)
+  checksum     String       @unique
+  ocrText      String?      @db.Text
+  tags         String[]
+  metadata     Json?
+
+  uploadedById String
+  uploadedBy   User   @relation(fields: [uploadedById], references: [id])
+
+  previousVersionId String?
+  previousVersion   Document?  @relation("DocumentHistory", fields: [previousVersionId], references: [id])
+  nextVersions      Document[] @relation("DocumentHistory")
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+
+  evidence     Evidence[]    @relation("EvidenceDocuments")
+  researchJobs ResearchJob[]
+}
+
+// -----------------------------------------------------------------------------
+// 3. GLOBAL EVIDENCE ENGINE
+// -----------------------------------------------------------------------------
+
+enum VerificationStatus {
+  VERIFICATION_PENDING
+  VERIFIED
+  CONFLICT_DETECTED
+  REQUIRES_MANUAL_REVIEW
+  INVALIDATED
+}
+
+model Evidence {
+  id         String @id @default(uuid())
+  entityType String
+  entityId   String
+  fieldName  String
+
+  value     String
+  valueType String
+
+  sourceName         String
+  sourceUrl          String?
+  sourceTier         Int
+  dateCollected      DateTime           @default(now())
+  lastVerified       DateTime           @default(now())
+  verificationStatus VerificationStatus @default(VERIFICATION_PENDING)
+  confidenceScore    Float
+
+  version           Int        @default(1)
+  isCurrent         Boolean    @default(true)
+  previousVersionId String?
+  previousVersion   Evidence?  @relation("EvidenceHistory", fields: [previousVersionId], references: [id])
+  nextVersions      Evidence[] @relation("EvidenceHistory")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  documents    Document[]    @relation("EvidenceDocuments")
+  researchJobs ResearchJob[]
+}
+
+// -----------------------------------------------------------------------------
+// 4. KNOWLEDGE GRAPH: MACRO NODES
+// -----------------------------------------------------------------------------
+
+model Country {
+  id   String @id @default(uuid())
+  name String @unique
+  code String @unique
+
+  retailers     Retailer[]
+  suppliers     Supplier[]
+  manufacturers Manufacturer[]
+  importers     Importer[]
+  distributors  Distributor[]
+  laboratories  Laboratory[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+  processors            Processor[]
+}
+
+model TradeShow {
+  id        String    @id @default(uuid())
+  name      String
+  dateStart DateTime?
+  dateEnd   DateTime?
+  location  String?
+
+  competitors Competitor[]
+  suppliers   Supplier[]
+  importers   Importer[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 5. DIGITAL FOOTPRINT (Web, Social, Marketing, Reviews)
+// -----------------------------------------------------------------------------
+
+model Website {
+  id  String @id @default(uuid())
+  url String @unique
+
+  competitorId String?
+  competitor   Competitor? @relation(fields: [competitorId], references: [id])
+  supplierId   String?
+  supplier     Supplier?   @relation(fields: [supplierId], references: [id])
+  importerId   String?
+  importer     Importer?   @relation(fields: [importerId], references: [id])
+  retailerId   String?
+  retailer     Retailer?   @relation(fields: [retailerId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SocialAccount {
+  id       String  @id @default(uuid())
+  platform String
+  url      String  @unique
+  handle   String?
+
+  competitorId String?
+  competitor   Competitor? @relation(fields: [competitorId], references: [id])
+  supplierId   String?
+  supplier     Supplier?   @relation(fields: [supplierId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model MarketingAsset {
+  id    String @id @default(uuid())
+  title String
+  url   String
+
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+  skuId     String?
+  sku       SKU?     @relation(fields: [skuId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Review {
+  id         String    @id @default(uuid())
+  platform   String
+  rating     Float
+  content    String?   @db.Text
+  datePosted DateTime?
+  url        String?
+
+  skuId String?
+  sku   SKU?    @relation(fields: [skuId], references: [id])
+
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 6. COMPETITIVE INTELLIGENCE
+// -----------------------------------------------------------------------------
+
+model Competitor {
+  id          String  @id @default(uuid())
+  name        String  @unique
+  description String?
+
+  products       Product[]
+  meetings       Meeting[]
+  websites       Website[]
+  socialAccounts SocialAccount[]
+  tradeShows     TradeShow[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model Product {
+  id           String      @id @default(uuid())
+  name         String
+  competitorId String?
+  competitor   Competitor? @relation(fields: [competitorId], references: [id])
+
+  skus            SKU[]
+  certifications  Certification[]
+  researchPapers  ResearchPaper[]
+  marketingAssets MarketingAsset[]
+  reviews         Review[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model SKU {
+  id        String  @id @default(uuid())
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+  code      String  @unique
+  name      String
+
+  priceRecords    PriceRecord[]
+  researchPapers  ResearchPaper[]
+  marketingAssets MarketingAsset[]
+  reviews         Review[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model PriceRecord {
+  id       String   @id @default(uuid())
+  skuId    String
+  sku      SKU      @relation(fields: [skuId], references: [id])
+  price    Float
+  currency String   @default("USD")
+  date     DateTime @default(now())
+
+  createdAt DateTime @default(now())
+}
+
+model Retailer {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  distributors Distributor[] @relation("DistributorRetailers")
+  websites     Website[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 7. SUPPLIER INTELLIGENCE
+// -----------------------------------------------------------------------------
+
+model Supplier {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  processors     Processor[]     @relation("SupplierProcessors")
+  importers      Importer[]      @relation("SupplierImporters")
+  labReports     LabReport[]
+  certifications Certification[]
+  shipments      Shipment[]
+  meetings       Meeting[]
+  websites       Website[]
+  socialAccounts SocialAccount[]
+  tradeShows     TradeShow[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model Manufacturer {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  labReports LabReport[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model Processor {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  suppliers Supplier[] @relation("SupplierProcessors")
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 8. DISTRIBUTION INTELLIGENCE
+// -----------------------------------------------------------------------------
+
+model Importer {
+  id        String  @id @default(uuid())
+  name      String  @unique
+  buyerType String?
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  suppliers    Supplier[]    @relation("SupplierImporters")
+  distributors Distributor[] @relation("ImporterDistributors")
+  shipments    Shipment[]
+  meetings     Meeting[]
+  websites     Website[]
+  tradeShows   TradeShow[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model Distributor {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  importers Importer[] @relation("ImporterDistributors")
+  retailers Retailer[] @relation("DistributorRetailers")
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 9. SCIENTIFIC & LABORATORY INTELLIGENCE
+// -----------------------------------------------------------------------------
+
+model Laboratory {
+  id   String @id @default(uuid())
+  name String @unique
+
+  countryId String?
+  country   Country? @relation(fields: [countryId], references: [id])
+
+  labReports LabReport[]
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model LabReport {
+  id           String   @id @default(uuid())
+  reportNumber String   @unique
+  dateIssued   DateTime
+
+  laboratoryId String?
+  laboratory   Laboratory? @relation(fields: [laboratoryId], references: [id])
+
+  supplierId String?
+  supplier   Supplier? @relation(fields: [supplierId], references: [id])
+
+  manufacturerId String?
+  manufacturer   Manufacturer? @relation(fields: [manufacturerId], references: [id])
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model Certification {
+  id          String    @id @default(uuid())
+  name        String
+  issuingBody String
+  dateIssued  DateTime
+  dateExpired DateTime?
+
+  supplierId String?
+  supplier   Supplier? @relation(fields: [supplierId], references: [id])
+
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+model ResearchPaper {
+  id            String    @id @default(uuid())
+  title         String
+  authors       String?
+  journal       String?
+  publishedDate DateTime?
+  doi           String?   @unique
+  url           String?
+  abstract      String?   @db.Text
+
+  productId String?
+  product   Product? @relation(fields: [productId], references: [id])
+  skuId     String?
+  sku       SKU?     @relation(fields: [skuId], references: [id])
+
+  lifecycleStage        LifecycleStage @default(DISCOVERED)
+  intelligenceScore     Float          @default(0.0)
+  completenessBreakdown Json?
+  createdAt             DateTime       @default(now())
+  updatedAt             DateTime       @updatedAt
+}
+
+// -----------------------------------------------------------------------------
+// 10. OPERATIONS
+// -----------------------------------------------------------------------------
+
+enum TaskStatus {
+  TODO
+  IN_PROGRESS
+  BLOCKED
+  DONE
+}
+
+model Shipment {
+  id           String    @id @default(uuid())
+  billOfLading String    @unique
+  hsCode       String?
+  weightKg     Float?
+  arrivalDate  DateTime?
+
+  supplierId String?
+  supplier   Supplier? @relation(fields: [supplierId], references: [id])
+
+  importerId String?
+  importer   Importer? @relation(fields: [importerId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Task {
+  id          String     @id @default(uuid())
+  title       String
+  description String?
+  status      TaskStatus @default(TODO)
+
+  assigneeId String?
+  assignee   User?   @relation("AssignedTasks", fields: [assigneeId], references: [id])
+
+  creatorId String
+  creator   User   @relation("CreatedTasks", fields: [creatorId], references: [id])
+
+  targetEntityId   String?
+  targetEntityType String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Meeting {
+  id    String   @id @default(uuid())
+  title String
+  date  DateTime
+  notes String?  @db.Text
+
+  participants User[]
+
+  supplierId   String?
+  supplier     Supplier?   @relation(fields: [supplierId], references: [id])
+  importerId   String?
+  importer     Importer?   @relation(fields: [importerId], references: [id])
+  competitorId String?
+  competitor   Competitor? @relation(fields: [competitorId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

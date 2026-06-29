@@ -1,0 +1,587 @@
+[
+  {
+    "id": "brand-diaspora",
+    "name": "Diaspora Co.",
+    "marketPositioning": "Premium",
+    "source": "Diaspora Co. Official Website",
+    "sourceUrl": "https://www.diasporaco.com",
+    "sourceType": "Official",
+    "dateCollected": "2026-06-29T00:00:00Z",
+    "dateLastVerified": "2026-06-29T00:00:00Z",
+    "confidenceScore": 100,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand-burlap",
+    "name": "Burlap & Barrel",
+    "marketPositioning": "Premium",
+    "source": "Burlap & Barrel Official Website",
+    "sourceUrl": "https://www.burlapandbarrel.com",
+    "sourceType": "Official",
+    "dateCollected": "2026-06-29T00:00:00Z",
+    "dateLastVerified": "2026-06-29T00:00:00Z",
+    "confidenceScore": 100,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand-niraam",
+    "name": "Niraam Superfoods",
+    "marketPositioning": "Premium",
+    "source": "Niraam Superfoods Website",
+    "sourceUrl": "https://niraam.com",
+    "sourceType": "Official",
+    "dateCollected": "2026-06-29T00:00:00Z",
+    "dateLastVerified": "2026-06-29T00:00:00Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand-jaintiagold",
+    "name": "Jaintia Gold",
+    "marketPositioning": "Premium",
+    "source": "Various Retailers",
+    "sourceUrl": "https://www.indiamart.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-29T00:00:00Z",
+    "dateLastVerified": "2026-06-29T00:00:00Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand-tribalfactory",
+    "name": "Tribal Factory",
+    "marketPositioning": "Premium",
+    "source": "Tribal Factory Official",
+    "sourceUrl": "https://tribalfactory.in",
+    "sourceType": "Official",
+    "dateCollected": "2026-06-29T00:00:00Z",
+    "dateLastVerified": "2026-06-29T00:00:00Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_vbi45fkyzibqpdp21m5h",
+    "name": "Maatru Rasah",
+    "marketPositioning": "Premium Lakadong",
+    "source": "maatrurasah.com",
+    "sourceUrl": "https://maatrurasah.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_ecxy104a2yi253wmhd43n1",
+    "name": "GetFitSquad",
+    "marketPositioning": "Unknown",
+    "source": "Google Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Requires Manual Verification",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_pps6m92ib1ozn5oa4u39z",
+    "name": "Neetacha Spices",
+    "marketPositioning": "Premium Cryogenic",
+    "source": "neetacha.com",
+    "sourceUrl": "https://neetacha.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_y0httvartq56lwe1ybimy",
+    "name": "Lee's Mumi Botanical Extracts",
+    "marketPositioning": "Unknown",
+    "source": "Google Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Requires Manual Verification",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_ubgq8665djjkxzqbjp2k",
+    "name": "Trinay Ayurveda",
+    "marketPositioning": "Unknown",
+    "source": "Google Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Requires Manual Verification",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_faso5hqvlq7psg0m7zppa",
+    "name": "Bon Organo",
+    "marketPositioning": "Premium Lakadong",
+    "source": "bonorgano.com",
+    "sourceUrl": "https://bonorgano.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 90,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_sgmm851kbl6cewm406l2b",
+    "name": "Two Brothers Organic Farms",
+    "marketPositioning": "Premium Lakadong",
+    "source": "twobrothersindiashop.com",
+    "sourceUrl": "https://twobrothersindiashop.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_2t82dvd5g1oj4xqygrj96s",
+    "name": "Organic Mandya",
+    "marketPositioning": "Organic Standard",
+    "source": "organicmandya.com",
+    "sourceUrl": "https://organicmandya.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_8dk94cfjq53q7ht21hx6l",
+    "name": "My Pahadi Dukan",
+    "marketPositioning": "Premium Lakadong",
+    "source": "mypahadidukan.com",
+    "sourceUrl": "https://mypahadidukan.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 90,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_t7cx2ibe8hn0jnsc4xve1n7",
+    "name": "NAKI",
+    "marketPositioning": "Premium Lakadong",
+    "source": "nakistore.in",
+    "sourceUrl": "https://nakistore.in",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 90,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_qai8yjncj1ppyipggjd819",
+    "name": "PR Exports Ltd.",
+    "marketPositioning": "Wholesale/Bulk Lakadong",
+    "source": "prel.in",
+    "sourceUrl": "http://prel.in",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 90,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_07zpldbrwnb8geu3woul7vp",
+    "name": "TatvaHills Superfoods",
+    "marketPositioning": "Premium Lakadong Blends",
+    "source": "tatvahills-superfoods.com",
+    "sourceUrl": "https://tatvahills-superfoods.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 90,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_6k1kufkcth6u2uog1nyzun",
+    "name": "McCormick",
+    "marketPositioning": "Global Benchmark Culinary",
+    "source": "mccormick.com",
+    "sourceUrl": "https://mccormick.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_iuduruqnmkpnh6b1uv6jxg",
+    "name": "Simply Organic",
+    "marketPositioning": "Global Benchmark Organic",
+    "source": "simplyorganic.com",
+    "sourceUrl": "https://simplyorganic.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_w9iokkmdkn9s7mdbo8ozc",
+    "name": "Frontier Co-op",
+    "marketPositioning": "Global Benchmark Co-op",
+    "source": "frontiercoop.com",
+    "sourceUrl": "https://frontiercoop.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_i4878u974vfypauccriy",
+    "name": "Schwartz",
+    "marketPositioning": "Global Benchmark Culinary",
+    "source": "schwartz.co.uk",
+    "sourceUrl": "https://schwartz.co.uk",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "brand_5agiamwjrrssggaovhktg",
+    "name": "Fuchs Group",
+    "marketPositioning": "Global Benchmark Industrial/Culinary",
+    "source": "fuchsgruppe.com",
+    "sourceUrl": "https://fuchsgruppe.com",
+    "sourceType": "Official / Third-Party Analysis",
+    "dateCollected": "2026-06-28T21:14:01.767Z",
+    "dateLastVerified": "2026-06-28T21:14:01.767Z",
+    "confidenceScore": 95,
+    "verificationStatus": "Verified",
+    "roles": [
+      "Competitor Brand"
+    ]
+  },
+  {
+    "id": "org-maatru-rasah",
+    "name": "Maatru Rasah",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.352Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Single-origin, Padma Shri Trinity Saioo cooperative."
+  },
+  {
+    "id": "org-getfitsquad",
+    "name": "GetFitSquad",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Web Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Unknown",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Unknown",
+    "notes": "No recognized Lakadong turmeric presence found."
+  },
+  {
+    "id": "org-neetacha-spices",
+    "name": "Neetacha Spices",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Cryogenic processing at -196C."
+  },
+  {
+    "id": "org-lee-s-mumi-botanical-extracts",
+    "name": "Lee's Mumi Botanical Extracts",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Web Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Unknown",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Unknown",
+    "notes": "No recognized presence found."
+  },
+  {
+    "id": "org-trinay-ayurveda",
+    "name": "Trinay Ayurveda",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Web Search",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Unknown",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 0,
+    "verificationStatus": "Unknown",
+    "notes": "No recognized presence found."
+  },
+  {
+    "id": "org-bon-organo",
+    "name": "Bon Organo",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "High curcumin Lakadong."
+  },
+  {
+    "id": "org-two-brothers-organic-farms",
+    "name": "Two Brothers Organic Farms",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Single Origin Lakadong."
+  },
+  {
+    "id": "org-organic-mandya",
+    "name": "Organic Mandya",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Offers standard and Lakadong. Member pricing available."
+  },
+  {
+    "id": "org-my-pahadi-dukan",
+    "name": "My Pahadi Dukan",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Lakadong Turmeric."
+  },
+  {
+    "id": "org-naki",
+    "name": "NAKI",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Sourced from West Jaintia Hills."
+  },
+  {
+    "id": "org-pr-exports-ltd-",
+    "name": "PR Exports Ltd.",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Bulk exporter / Masala Mundi brand."
+  },
+  {
+    "id": "org-tatvahills-superfoods",
+    "name": "TatvaHills Superfoods",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Blended with Tellicherry Pepper."
+  },
+  {
+    "id": "org-mccormick",
+    "name": "McCormick",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Alleppey turmeric sourcing."
+  },
+  {
+    "id": "org-simply-organic",
+    "name": "Simply Organic",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Alleppey turmeric."
+  },
+  {
+    "id": "org-frontier-co-op",
+    "name": "Frontier Co-op",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Bulk ground turmeric root."
+  },
+  {
+    "id": "org-schwartz",
+    "name": "Schwartz",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "BioSchwartz supplements. Not culinary."
+  },
+  {
+    "id": "org-fuchs-group",
+    "name": "Fuchs Group",
+    "roles": [
+      "Competitor Brand"
+    ],
+    "source": "Official / Retailers",
+    "sourceUrl": "https://google.com",
+    "sourceType": "Third-Party",
+    "dateCollected": "2026-06-28T21:55:16.353Z",
+    "dateLastVerified": "2026-06-28T21:55:16.353Z",
+    "confidenceScore": 85,
+    "verificationStatus": "Verified",
+    "notes": "Global culinary spice manufacturer."
+  }
+]

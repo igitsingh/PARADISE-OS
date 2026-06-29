@@ -42,7 +42,7 @@ const EXPORTER_SECTORS = {
   },
   "Spices": {
     companies: [
-      "Synthite Industries Private Ltd", "Kancor Ingredients Limited", "Plant Lipids Private Ltd", "Everest Food Products Pvt Ltd",
+      "aQysta Irrigation India Private Limited", "Synthite Industries Private Ltd", "Kancor Ingredients Limited", "Plant Lipids Private Ltd", "Everest Food Products Pvt Ltd",
       "MDH Spices (Mahashian Di Hatti Ltd)", "Akay Natural Ingredients Private Ltd", "Guntur Chilli Traders Co",
       "Unjha Seed Cleansing Mills Ltd", "Malabar Spice Traders", "VKL Seasoning Private Ltd", "Eastern Condiments Pvt Ltd",
       "Catch Foods Export House", "Badshah Masala Pvt Ltd", "MTR Foods Spices Division", "Universal Oleoresins",
@@ -407,14 +407,67 @@ for (const sector of sectorNames) {
     const targetMarkets = ["UAE", "UK", "USA", "Saudi Arabia", "Germany", "Netherlands", "Japan", "Bangladesh", "Vietnam", "Italy"];
     const exportMarkets = getRandomSample(targetMarkets, getRandomInt(2, 4));
 
-    // Special exact credentials for Karnal Agricultural Exports (Demo Exporter)
-    if (companyName === "Karnal Agricultural Exports" || (sector === "Rice" && i === 20)) {
+    // Special exact credentials for aQysta Irrigation India Private Limited
+    if (companyName === "aQysta Irrigation India Private Limited" || (sector === "Spices" && i === 0)) {
+      companyName = "aQysta Irrigation India Private Limited";
+      const expProfile = {
+        id: `exp-${companyIdCounter}`,
+        role: "Exporter",
+        name: "aQysta Irrigation India Private Limited",
+        logo: "🌿",
+        isVerified: true,
+        city: "Guwahati",
+        state: "Assam",
+        country: "India",
+        productCategories: ["Spices"],
+        productsList: ["Lakadong Turmeric Powder (7-10% Curcumin)", "Lakadong Turmeric Dried Slices"],
+        exportMarkets: ["Germany", "Netherlands", "USA", "UK", "UAE"],
+        certifications: [
+          { name: "FSSAI License", verified: true, authority: "FSSAI Board Audited", expiry: "2028-02" },
+          { name: "Spices Board Registration", verified: true, authority: "Spices Board Audited", expiry: "2027-12" },
+          { name: "AgNext Curcumin Report (9.30% Curcumin)", verified: true, authority: "AgNext Labs Verified", expiry: "2027-06" },
+          { name: "Eureka Curcumin Report (7.54% Curcumin)", verified: true, authority: "Eureka Labs Verified", expiry: "2027-05" },
+          { name: "SGS Chemical & Biological Pass Certificate", verified: true, authority: "SGS India Audited", expiry: "2027-10" }
+        ],
+        moq: "500 kg",
+        responseTime: "15 mins avg",
+        trustScore: 975,
+        rating: 4.92,
+        reviews: 48,
+        tradeVolume: "$1.8M",
+        escrowSuccessRate: "100%",
+        disputesActive: 0,
+        disputesResolved: 4,
+        exportReadiness: "AAA",
+        competitivePositioning: "Direct source from farmer groups in Meghalaya, processed in Guwahati. Lakadong turmeric powder at Rs. 338/kg, dried slices at Rs. 288/kg (excl. GST). Lab-tested 7-10% curcumin with zero pesticide trace.",
+        aiSummary: "Verified supplier from Guwahati, Assam. Sourcing 7-10% curcumin Lakadong turmeric directly from Meghalaya farmer groups. Inspected by SGS, Eureka, and AgNext with zero pesticide/mycotoxin traces.",
+        yearsInBusiness: 8,
+        factoryVerification: { verified: true, auditor: "Eureka Analytical Services", lastAudit: "2026-06-12", rating: "A-Grade Compliance" },
+        bankVerification: { rating: "AA", swiftVerified: true, creditScore: 820, status: "SWIFT Node Validated Liquidity" },
+        moistureLimit: "13.1% max limit",
+        leadTime: "12 Days",
+        pastTransactions: [
+          { id: "TX-9105", date: "2026-06-03", destination: "Port of Hamburg", amount: "$18,500 USD", status: "RELEASED" },
+          { id: "TX-8942", date: "2026-05-22", destination: "Jebel Ali, Dubai", amount: "$12,400 USD", status: "RELEASED" }
+        ],
+        connections: 64,
+        endorsements: 18,
+        contactPerson: "Chinmoy Sharma",
+        contactDesignation: "Sales & Operations Manager",
+        phone: "+91-8638253435",
+        email: "chinmoy@aqysta.com",
+        website: "www.aqysta.com",
+        curcuminIndex: "7-10% (9.30% AgNext, 7.54% Eureka, 7.23% SGS)"
+      };
+      exporters.push(expProfile);
+    } else if (companyName === "Karnal Agricultural Exports" || (sector === "Rice" && i === 20)) {
       companyName = "Karnal Agricultural Exports";
       const expProfile = {
         id: `exp-${companyIdCounter}`,
         role: "Exporter",
         name: "Karnal Agricultural Exports",
         logo: "🌾",
+        isVerified: true,
         city: "Karnal",
         state: "Haryana",
         country: "India",
@@ -460,6 +513,7 @@ for (const sector of sectorNames) {
         role: "Exporter",
         name: companyName,
         logo: template.logo,
+        isVerified: trustScore >= 885,
         city: city,
         state: state,
         country: "India",
@@ -521,6 +575,7 @@ for (let i = 0; i < 100; i++) {
       role: "Importer",
       name: "Al Ghurair Foods",
       logo: "🏢",
+      isVerified: true,
       city: "Dubai",
       state: "Dubai Emirate",
       country: "UAE",
@@ -542,6 +597,7 @@ for (let i = 0; i < 100; i++) {
       id: `imp-${i + 1}`,
       role: "Importer",
       name: importerName,
+      isVerified: trustScore >= 885,
       logo: baseImporter.logo,
       city: baseImporter.city,
       state: baseImporter.country,
@@ -594,6 +650,7 @@ for (let i = 0; i < 80; i++) {
       role: "Distributor",
       name: "DACHSER Food Logistics",
       logo: "🚚",
+      isVerified: true,
       city: "Kempten",
       country: "Germany",
       trustScore: 985,
@@ -614,6 +671,7 @@ for (let i = 0; i < 80; i++) {
       id: `dist-${i + 1}`,
       role: "Distributor",
       name: distName,
+      isVerified: trustScore >= 885,
       logo: baseDist.logo,
       city: baseDist.city,
       country: baseDist.country,
@@ -655,6 +713,7 @@ for (let i = 0; i < 70; i++) {
       name: "Unilever Global Sourcing",
       type: "Procurement Team",
       logo: "🤝",
+      isVerified: true,
       city: "Rotterdam",
       country: "Netherlands",
       trustScore: 970,
@@ -671,6 +730,7 @@ for (let i = 0; i < 70; i++) {
       id: `proc-${i + 1}`,
       role: "Procurement",
       name: procName,
+      isVerified: trustScore >= 885,
       type: baseProc.type,
       logo: baseProc.logo,
       city: baseProc.city,

@@ -2,23 +2,23 @@
 
 @theme {
   /* Color System */
-  --color-bg-base: #020204;
-  --color-bg-card: rgba(9, 9, 14, 0.6);
-  --color-bg-elevated: #0E0E14;
-  --color-bg-hover: #161622;
+  --color-bg-base: #080A10;
+  --color-bg-card: rgba(15, 22, 38, 0.5);
+  --color-bg-elevated: #0F1322;
+  --color-bg-hover: #171E36;
   
-  --color-text-primary: #FFFFFF;
-  --color-text-secondary: #A1A1AA;
-  --color-text-subtle: #71717A;
+  --color-text-primary: #F8FAFC;
+  --color-text-secondary: #94A3B8;
+  --color-text-subtle: #64748B;
 
-  --color-brand-primary: #FF5E00;
-  --color-brand-secondary: #05C46B;
-  --color-brand-danger: #FF5A5F;
-  --color-brand-warning: #E29826;
+  --color-brand-primary: #3B82F6;
+  --color-brand-secondary: #10B981;
+  --color-brand-danger: #EF4444;
+  --color-brand-warning: #F59E0B;
 
   /* Border Colors */
-  --color-border-satin: rgba(255, 255, 255, 0.05);
-  --color-border-hover: rgba(255, 255, 255, 0.12);
+  --color-border-satin: rgba(255, 255, 255, 0.06);
+  --color-border-hover: rgba(59, 130, 246, 0.25);
 
   /* Radius Scales */
   --radius-xs: 6px;
@@ -27,8 +27,8 @@
   --radius-lg: 24px;
 
   /* Custom Glow Shadows */
-  --shadow-glow: 0 0 40px rgba(255, 94, 0, 0.18);
-  --shadow-glow-green: 0 0 40px rgba(5, 196, 107, 0.18);
+  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.15);
+  --shadow-glow-green: 0 0 40px rgba(16, 185, 129, 0.15);
 
   /* Spring Physics Transitions */
   --transition-spring: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -51,7 +51,7 @@ body {
 
 /* Custom premium card border layout */
 .card {
-  background: rgba(9, 9, 14, 0.45);
+  background: rgba(15, 22, 38, 0.45);
   backdrop-filter: blur(20px) saturate(120%);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-md);
@@ -59,8 +59,8 @@ body {
 }
 
 .card:hover {
-  border-color: rgba(255, 94, 0, 0.3);
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 94, 0, 0.1);
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 25px rgba(59, 130, 246, 0.1);
 }
 
 .card-border-glow {
@@ -90,7 +90,7 @@ body {
 
 .input:focus {
   border-color: var(--color-brand-primary);
-  box-shadow: 0 0 0 1px var(--color-brand-primary), 0 0 20px rgba(255, 94, 0, 0.18);
+  box-shadow: 0 0 0 1px var(--color-brand-primary), 0 0 20px rgba(59, 130, 246, 0.18);
   background-color: rgba(255, 255, 255, 0.04);
 }
 
@@ -112,14 +112,14 @@ body {
 }
 
 .nav-item.active {
-  background-color: rgba(255, 94, 0, 0.1);
-  border: 1px solid rgba(255, 94, 0, 0.2);
+  background-color: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.2);
   color: var(--color-text-primary);
 }
 
 /* Dashboard Metric Cards */
 .metric-card {
-  background: rgba(9, 9, 14, 0.45);
+  background: rgba(15, 22, 38, 0.45);
   backdrop-filter: blur(20px) saturate(120%);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: var(--radius-md);
@@ -131,8 +131,8 @@ body {
 }
 
 .metric-card:hover {
-  border-color: rgba(255, 94, 0, 0.3);
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 94, 0, 0.1);
+  border-color: rgba(59, 130, 246, 0.25);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.5), 0 0 25px rgba(59, 130, 246, 0.1);
 }
 
 .metric-value {
@@ -155,15 +155,15 @@ body {
 }
 
 .metric-change-up {
-  color: #05C46B;
-  background-color: rgba(5, 196, 107, 0.1);
-  border: 1px solid rgba(5, 196, 107, 0.2);
+  color: #10B981;
+  background-color: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.2);
 }
 
 .metric-change-down {
-  color: #FF5A5F;
-  background-color: rgba(255, 90, 95, 0.1);
-  border: 1px solid rgba(255, 90, 95, 0.2);
+  color: #EF4444;
+  background-color: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.2);
 }
 
 /* Trust Badges styles */
@@ -171,12 +171,12 @@ body {
   font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.1em;
-  color: #FF5E00;
-  background: linear-gradient(135deg, rgba(255, 94, 0, 0.2), rgba(255, 140, 0, 0.1));
-  border: 1px solid rgba(255, 94, 0, 0.3);
+  color: #E2E8F0;
+  background: linear-gradient(135deg, rgba(226, 232, 240, 0.15), rgba(148, 163, 184, 0.08));
+  border: 1px solid rgba(226, 232, 240, 0.25);
   padding: 2px 8px;
   border-radius: 9999px;
-  text-shadow: 0 0 10px rgba(255, 94, 0, 0.4);
+  text-shadow: 0 0 10px rgba(226, 232, 240, 0.3);
 }
 
 .trust-badge-elite {
@@ -184,23 +184,23 @@ body {
   font-weight: 800;
   letter-spacing: 0.1em;
   color: #F59E0B;
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(253, 186, 116, 0.1));
-  border: 1px solid rgba(245, 158, 11, 0.3);
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(251, 191, 36, 0.08));
+  border: 1px solid rgba(245, 158, 11, 0.25);
   padding: 2px 8px;
   border-radius: 9999px;
-  text-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.3);
 }
 
 .trust-badge-trusted {
   font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.1em;
-  color: #05C46B;
-  background: linear-gradient(135deg, rgba(5, 196, 107, 0.2), rgba(52, 211, 153, 0.1));
-  border: 1px solid rgba(5, 196, 107, 0.3);
+  color: #10B981;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(52, 211, 153, 0.08));
+  border: 1px solid rgba(16, 185, 129, 0.25);
   padding: 2px 8px;
   border-radius: 9999px;
-  text-shadow: 0 0 10px rgba(5, 196, 107, 0.4);
+  text-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
 }
 
 /* Hide scrollbars but keep functionality */
@@ -214,7 +214,7 @@ body {
 
 /* Headings styles */
 .text-gradient {
-  background: linear-gradient(135deg, #FFFFFF 0%, #FFE4E6 40%, #FDBA74 75%, #F97316 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 45%, #93C5FD 75%, #3B82F6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -236,4 +236,148 @@ body {
 .animate-float-fast {
   animation: float-slow 12s ease-in-out infinite;
 }
+
+/* Fading tech grid pattern */
+.bg-grid-pattern {
+  position: relative;
+}
+.bg-grid-pattern::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-size: 50px 50px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
+  mask-image: radial-gradient(ellipse at 50% 15%, black 45%, transparent 80%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 15%, black 45%, transparent 80%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ==========================================
+   VIBRANT INTERACTION & ATTENTION PSYCHOLOGY
+   ========================================== */
+
+/* Neon keyframe glow pulses */
+@keyframes pulse-glow-emerald {
+  0%, 100% { box-shadow: 0 0 12px rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.2); }
+  50% { box-shadow: 0 0 28px rgba(16, 185, 129, 0.45); border-color: rgba(16, 185, 129, 0.5); }
+}
+
+@keyframes pulse-glow-amber {
+  0%, 100% { box-shadow: 0 0 12px rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.2); }
+  50% { box-shadow: 0 0 28px rgba(245, 158, 11, 0.45); border-color: rgba(245, 158, 11, 0.5); }
+}
+
+@keyframes pulse-glow-brand {
+  0%, 100% { box-shadow: 0 0 12px rgba(59, 130, 246, 0.15); border-color: rgba(59, 130, 246, 0.2); }
+  50% { box-shadow: 0 0 28px rgba(59, 130, 246, 0.45); border-color: rgba(59, 130, 246, 0.5); }
+}
+
+@keyframes pulse-glow-danger {
+  0%, 100% { box-shadow: 0 0 12px rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.2); }
+  50% { box-shadow: 0 0 28px rgba(239, 68, 68, 0.45); border-color: rgba(239, 68, 68, 0.5); }
+}
+
+/* Diagonal glossy shimmer sweep for active CTA cards & buttons */
+@keyframes shimmer-sweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Breathing indicator dot animation */
+@keyframes breath {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50% { transform: scale(1.35); opacity: 1; filter: drop-shadow(0 0 4px currentColor); }
+}
+
+/* Progress bar sliding shimmer */
+@keyframes progress-shimmer-anim {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Shimmer gradient helper */
+.shimmer-bg {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.06) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+}
+
+.shimmer-active {
+  animation: shimmer-sweep 3s infinite linear;
+}
+
+/* Pulsing Status Dot */
+.pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: breath 2s infinite ease-in-out;
+}
+
+/* Premium gradient border frame for active elements */
+.glowing-border-active {
+  position: relative;
+}
+.glowing-border-active::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: linear-gradient(90deg, #3B82F6, #10B981, #6366F1, #3B82F6);
+  background-size: 300% 300%;
+  border-radius: inherit;
+  z-index: -1;
+  pointer-events: none;
+  animation: progress-shimmer-anim 6s ease infinite;
+  opacity: 0.5;
+}
+
+/* Escrow Wizard - Attention Node */
+.attention-node-active {
+  animation: pulse-glow-brand 2.5s infinite ease-in-out;
+  border-color: rgba(59, 130, 246, 0.4) !important;
+}
+
+.attention-node-warning {
+  animation: pulse-glow-amber 2.5s infinite ease-in-out;
+  border-color: rgba(245, 158, 11, 0.4) !important;
+}
+
+.attention-node-success {
+  animation: pulse-glow-emerald 2.5s infinite ease-in-out;
+  border-color: rgba(16, 185, 129, 0.4) !important;
+}
+
+/* Custom premium badge styles */
+.badge-glowing-platinum {
+  color: #F8FAFC;
+  background: linear-gradient(135deg, rgba(255,255,255,0.15), rgba(255,255,255,0.05));
+  border: 1px solid rgba(255,255,255,0.25);
+  box-shadow: 0 0 15px rgba(255,255,255,0.1), inset 0 0 8px rgba(255,255,255,0.05);
+}
+
+.badge-glowing-gold {
+  color: #FBBF24;
+  background: linear-gradient(135deg, rgba(251,191,36,0.18), rgba(251,191,36,0.05));
+  border: 1px solid rgba(251,191,36,0.3);
+  box-shadow: 0 0 15px rgba(251,191,36,0.15), inset 0 0 8px rgba(251,191,36,0.05);
+}
+
+.badge-glowing-neon {
+  color: #10B981;
+  background: linear-gradient(135deg, rgba(16,185,129,0.18), rgba(16,185,129,0.05));
+  border: 1px solid rgba(16,185,129,0.3);
+  box-shadow: 0 0 15px rgba(16,185,129,0.15), inset 0 0 8px rgba(16,185,129,0.05);
+}
+
+/* Shimmer Progress bar styling */
+.progress-shimmer-bar {
+  background: linear-gradient(270deg, #2563eb, #4f46e5, #10b981, #2563eb);
+  background-size: 600% 600%;
+  animation: progress-shimmer-anim 8s ease infinite;
+}
+
 
