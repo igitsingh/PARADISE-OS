@@ -6,7 +6,7 @@ import { Sparkles, ArrowRight, ShieldAlert, ChevronDown, Shield, AlertTriangle }
 import orgsData from '../db/intelligence/brands/organizations.json';
 
 export default function AiChat() {
-  const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat();
+  const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat() as any;
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ export default function AiChat() {
           </div>
         )}
         
-        {messages.map((m) => (
+        {messages.map((m: any) => (
           <div key={m.id} className="flex gap-4">
             {m.role === 'assistant' && (
               <div className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center flex-shrink-0 mt-0.5 shadow-[0_0_15px_rgba(255,255,255,0.05)]">

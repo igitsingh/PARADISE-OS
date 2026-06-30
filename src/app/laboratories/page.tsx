@@ -21,7 +21,7 @@ export default async function LaboratoriesWorkspacePage() {
           include: { supplier: true }
         },
       },
-      orderBy: { credibilityScore: 'desc' },
+      orderBy: { intelligenceScore: 'desc' },
     });
     isDatabaseConnected = true;
   } catch (error) {

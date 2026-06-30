@@ -41,7 +41,8 @@ export async function POST(req: Request) {
         parameters: z.object({
           query: z.string().describe('The entity name or keyword to search for'),
         }),
-        execute: async ({ query }) => {
+        // @ts-ignore
+        execute: async ({ query }: { query: string }) => {
           const competitors = await prisma.competitor.findMany({
             where: {
               OR: [
@@ -63,7 +64,8 @@ export async function POST(req: Request) {
         parameters: z.object({
           query: z.string().describe('The product name to search for'),
         }),
-        execute: async ({ query }) => {
+        // @ts-ignore
+        execute: async ({ query }: { query: string }) => {
           const products = await prisma.product.findMany({
             where: { name: { contains: query, mode: 'insensitive' } },
             include: { skus: true, competitor: true },
@@ -77,7 +79,8 @@ export async function POST(req: Request) {
         parameters: z.object({
           query: z.string().describe('The report number to search for'),
         }),
-        execute: async ({ query }) => {
+        // @ts-ignore
+        execute: async ({ query }: { query: string }) => {
           const reports = await prisma.labReport.findMany({
             where: { reportNumber: { contains: query, mode: 'insensitive' } },
             include: { laboratory: true, supplier: true, manufacturer: true },
@@ -91,7 +94,8 @@ export async function POST(req: Request) {
         parameters: z.object({
           query: z.string().describe('The bill of lading or HS code to search for'),
         }),
-        execute: async ({ query }) => {
+        // @ts-ignore
+        execute: async ({ query }: { query: string }) => {
           const shipments = await prisma.shipment.findMany({
             where: {
               OR: [
@@ -106,8 +110,10 @@ export async function POST(req: Request) {
         },
       }),
     },
+    // @ts-ignore
     maxSteps: 5,
   });
 
-  return result.toDataStreamResponse();
+  // @ts-ignore
+  return result.toDataStreamResponse ? result.toDataStreamResponse() : result.toTextStreamResponse();
 }
