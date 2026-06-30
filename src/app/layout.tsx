@@ -26,7 +26,7 @@ export default function RootLayout({
 
         <Sidebar />
         <main className="flex-1 overflow-y-auto relative z-10 bg-transparent">
-          <div className="mx-auto h-full px-6 py-6 lg:px-8 max-w-[1200px]">
+          <div className="h-full w-full">
             {children}
           </div>
         </main>

@@ -1,138 +1,168 @@
 import React from 'react';
-import { FlaskConical, FileCheck, Clock, MapPin, Mail, Phone, IndianRupee, User, Info, Building2, Globe, Link2, ShieldCheck } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { prisma } from '@database/client';
+import { 
+  Beaker, 
+  Search, 
+  FlaskConical, 
+  CheckCircle, 
+  Microscope,
+  ArrowRight,
+  TestTube
+} from 'lucide-react';
 
-import labsData from '../../db/intelligence/laboratories/laboratories.json';
+export default async function LaboratoriesWorkspacePage() {
+  let laboratories: any[] = [];
+  let isDatabaseConnected = false;
 
-export default function LaboratoriesModule() {
+  try {
+    laboratories = await prisma.laboratory.findMany({
+      include: {
+        labReports: {
+          include: { supplier: true }
+        },
+      },
+      orderBy: { credibilityScore: 'desc' },
+    });
+    isDatabaseConnected = true;
+  } catch (error) {
+    console.warn("Database connection unavailable - rendering empty intelligence state");
+  }
+
+  const totalLabs = laboratories.length;
+  const verifiedLabs = laboratories.filter(l => l.credibilityScore >= 85).length;
+
   return (
-    <div className="flex flex-col h-full space-y-6">
-      <header className="flex justify-between items-end border-b border-[#30363D] pb-4">
+    <div className="flex flex-col w-full space-y-6 pb-10">
+      
+      {/* Header */}
+      <header className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-white/10 pb-6">
         <div>
-          <h1 className="text-2xl font-mono text-white flex items-center gap-2 uppercase tracking-tight">
-            <FlaskConical className="text-emerald-500" /> Testing Facilities
-          </h1>
-          <p className="text-[#8B949E] text-xs font-mono mt-1">
-            Certified laboratories for Heavy Metal, Microbiology, and Phytochemical testing.
+          <h1 className="text-3xl font-bold tracking-tight text-white mb-2">Laboratory Intelligence</h1>
+          <p className="text-white/60 text-sm max-w-2xl">
+            Assess third-party testing facility credibility, audit history, and report validity.
           </p>
+        </div>
+        <div className="flex items-center gap-3">
+          <button className="flex items-center gap-2 bg-black/50 border border-white/10 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-white/10 transition-colors">
+            <Search className="w-4 h-4" />
+            Audit Laboratory
+          </button>
         </div>
       </header>
 
-      {labsData.length === 0 ? (
-        <div className="text-center py-12 text-[#8B949E] font-mono text-sm border border-dashed border-[#30363D] rounded bg-[#0A0C10] mx-4 lg:mx-0">
-          No laboratories have been verified and added to the Knowledge Graph yet.
+      {/* KPI Dashboard */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {/* Total Laboratories */}
+        <div className="bg-black/40 border border-teal-500/20 backdrop-blur-md p-5 rounded-xl relative overflow-hidden group hover:border-teal-500/40 transition-colors">
+          <div className="absolute -right-6 -top-6 w-24 h-24 bg-teal-500/10 blur-2xl rounded-full group-hover:bg-teal-500/20 transition-colors" />
+          <div className="flex items-start justify-between mb-2">
+            <h3 className="text-teal-400 text-xs font-semibold uppercase tracking-wider">Tracked Labs</h3>
+            <Microscope className="w-4 h-4 text-teal-500" />
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-3xl font-bold text-white">{totalLabs}</span>
+          </div>
+          <p className="text-white/40 text-xs mt-2">Third-party facilities monitored globally.</p>
         </div>
-      ) : (
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 overflow-y-auto pb-20 items-stretch flex-1 min-h-0 pr-2">
-          {labsData.map((lab: any) => (
-            <div key={lab.id} className="bg-[#1C2128] border border-[#30363D] rounded-lg">
-            <div className="p-5 border-b border-[#30363D]">
-              <div className="flex justify-between items-start mb-2">
-                <h2 className="text-xl font-bold text-white tracking-tight">{lab.name}</h2>
-                {lab.trusted && (
-                   <span className="bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded text-[9px] font-mono uppercase tracking-wider whitespace-nowrap ml-2">
-                     Accredited
-                   </span>
-                )}
-              </div>
-              <div className="flex items-start gap-2 text-[#8B949E] text-xs font-mono mb-2">
-                <Building2 size={12} className="mt-0.5 flex-shrink-0" /> 
-                <span className="leading-relaxed">{lab.address}</span>
-              </div>
-              <div className="flex items-center gap-2 text-[#8B949E] text-xs font-mono">
-                <MapPin size={12} /> {lab.location}
-              </div>
-            </div>
-            
-            <div className="p-5 bg-[#0A0C10] rounded-b-lg flex flex-col gap-4">
-              <div>
-                <h4 className="text-[10px] uppercase font-mono text-[#8B949E] mb-2 flex items-center gap-1">
-                  <FileCheck size={12} /> Tests Offered
-                </h4>
-                <div className="flex flex-wrap gap-2">
-                  {lab.tests.map((test: string) => (
-                    <span key={test} className="text-[10px] text-[#c9d1d9] bg-[#1C2128] border border-[#30363D] px-2 py-1 rounded">
-                      {test}
-                    </span>
-                  ))}
-                </div>
-              </div>
 
-              {lab.certifications && lab.certifications.length > 0 && (
-                <div>
-                  <h4 className="text-[10px] uppercase font-mono text-[#8B949E] mb-2 flex items-center gap-1">
-                    <ShieldCheck size={12} /> Certifications & Approvals
-                  </h4>
-                  <div className="flex flex-wrap gap-2">
-                    {lab.certifications.map((cert: string) => (
-                      <span key={cert} className="text-[10px] font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-1 rounded">
-                        {cert}
+        {/* High Credibility Labs */}
+        <div className="bg-black/40 border border-emerald-500/20 backdrop-blur-md p-5 rounded-xl relative overflow-hidden group hover:border-emerald-500/40 transition-colors">
+          <div className="absolute -right-6 -top-6 w-24 h-24 bg-emerald-500/10 blur-2xl rounded-full group-hover:bg-emerald-500/20 transition-colors" />
+          <div className="flex items-start justify-between mb-2">
+            <h3 className="text-emerald-400 text-xs font-semibold uppercase tracking-wider">High Credibility</h3>
+            <CheckCircle className="w-4 h-4 text-emerald-500" />
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-3xl font-bold text-white">{verifiedLabs}</span>
+            <span className="text-white/40 text-sm">/ {totalLabs}</span>
+          </div>
+          <p className="text-white/40 text-xs mt-2">Facilities exceeding 85% credibility score.</p>
+        </div>
+
+        {/* Processed Reports */}
+        <div className="bg-black/40 border border-orange-500/20 backdrop-blur-md p-5 rounded-xl relative overflow-hidden group hover:border-orange-500/40 transition-colors">
+          <div className="absolute -right-6 -top-6 w-24 h-24 bg-orange-500/10 blur-2xl rounded-full group-hover:bg-orange-500/20 transition-colors" />
+          <div className="flex items-start justify-between mb-2">
+            <h3 className="text-orange-400 text-xs font-semibold uppercase tracking-wider">Analyzed Reports</h3>
+            <TestTube className="w-4 h-4 text-orange-500" />
+          </div>
+          <div className="flex items-baseline gap-2">
+            <span className="text-3xl font-bold text-white">
+              {laboratories.reduce((acc, lab) => acc + lab.labReports.length, 0)}
+            </span>
+          </div>
+          <p className="text-white/40 text-xs mt-2">Total lab reports analyzed for compliance.</p>
+        </div>
+      </div>
+
+      {/* Laboratory List - Strategic View */}
+      <div className="bg-[#0A0A0A] border border-white/5 rounded-2xl overflow-hidden shadow-2xl">
+        <div className="px-5 py-4 border-b border-white/5 bg-white/[0.02] flex items-center justify-between">
+          <h2 className="text-sm font-semibold text-white/90">Laboratory Network</h2>
+          <span className="text-[10px] uppercase font-mono text-white/40 tracking-wider">Ranked by Credibility</span>
+        </div>
+        
+        <div className="divide-y divide-white/5">
+          {laboratories.length === 0 ? (
+            <div className="p-8 text-center">
+              <FlaskConical className="w-8 h-8 text-white/20 mx-auto mb-3" />
+              <p className="text-white/60 text-sm">No laboratory intelligence data available.</p>
+            </div>
+          ) : laboratories.map(lab => {
+            return (
+              <div key={lab.id} className="p-5 hover:bg-white/[0.02] transition-colors group">
+                <div className="flex flex-col lg:flex-row gap-6 justify-between">
+                  
+                  {/* Primary Info */}
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3 mb-2">
+                      <h3 className="text-white font-medium text-lg">{lab.name}</h3>
+                      <span className={`px-2 py-0.5 rounded text-[10px] font-mono uppercase border flex items-center gap-1 ${
+                        lab.credibilityScore >= 85 ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border-amber-500/20'
+                      }`}>
+                        {lab.credibilityScore >= 85 ? 'VERIFIED' : 'PENDING REVIEW'}
                       </span>
-                    ))}
+                    </div>
+                    <p className="text-white/40 text-xs">Based in {lab.countryCode} • Contact: {lab.contactEmail}</p>
                   </div>
-                </div>
-              )}
-              
-              <div className="grid grid-cols-2 gap-4 border-t border-[#30363D] pt-4">
-                <div>
-                  <h4 className="text-[10px] uppercase font-mono text-[#8B949E] mb-1 flex items-center gap-1">
-                    <IndianRupee size={12} /> Estimated Cost
-                  </h4>
-                  <div className="text-xs text-white font-mono">{lab.cost}</div>
-                </div>
-                <div>
-                  <h4 className="text-[10px] uppercase font-mono text-[#8B949E] mb-1 flex items-center gap-1">
-                    <Clock size={12} /> Turnaround Time
-                  </h4>
-                  <div className="text-xs text-white font-mono">{lab.turnaround}</div>
+
+                  {/* Relationship Metrics */}
+                  <div className="flex-1 grid grid-cols-2 gap-4 items-center">
+                    <div className="flex flex-col">
+                      <span className="text-white/30 text-[10px] font-mono uppercase mb-1 flex items-center gap-1">
+                        <TestTube className="w-3 h-3" /> Processed Reports
+                      </span>
+                      <span className="text-white/80 text-sm">{lab.labReports.length}</span>
+                    </div>
+                    <div className="flex flex-col">
+                      <span className="text-white/30 text-[10px] font-mono uppercase mb-1 flex items-center gap-1">
+                        <CheckCircle className="w-3 h-3" /> Known Suppliers
+                      </span>
+                      <span className="text-white/80 text-sm">
+                        {new Set(lab.labReports.map((r: any) => r.supplierId)).size} Connected
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Actions & Score */}
+                  <div className="flex items-center gap-6 justify-end">
+                    <div className="flex flex-col items-end">
+                      <span className="text-white/30 text-[10px] font-mono uppercase mb-1">Credibility Score</span>
+                      <span className={`text-xl font-bold ${lab.credibilityScore >= 85 ? 'text-emerald-400' : 'text-amber-400'}`}>
+                        {lab.credibilityScore.toFixed(0)}%
+                      </span>
+                    </div>
+                    <button className="w-8 h-8 rounded-full bg-white/5 text-white/50 flex items-center justify-center hover:bg-white/10 hover:text-white transition-all">
+                      <ArrowRight className="w-4 h-4 -rotate-45" />
+                    </button>
+                  </div>
+
                 </div>
               </div>
-
-              <div className="border-t border-[#30363D] pt-4 flex flex-col gap-2">
-                 <h4 className="text-[10px] uppercase font-mono text-[#8B949E] flex items-center gap-1 mb-1">
-                    <User size={12} /> Contact Information
-                 </h4>
-                 <div className="text-xs font-mono flex items-center gap-2 text-[#c9d1d9] truncate">
-                    <User size={12} className="text-[#8B949E] flex-shrink-0"/> <span className="truncate">{lab.poc}</span>
-                 </div>
-                 <div className="text-xs font-mono flex items-center gap-2 text-[#c9d1d9] truncate">
-                    <Mail size={12} className="text-[#8B949E] flex-shrink-0"/> <span className="truncate">{lab.email}</span>
-                 </div>
-                 <div className="text-xs font-mono flex items-center gap-2 text-[#c9d1d9] truncate">
-                    <Phone size={12} className="text-[#8B949E] flex-shrink-0"/> <span className="truncate">{lab.contact}</span>
-                 </div>
-                 
-                 {(lab.website || lab.linkedin) && (
-                   <div className="flex gap-3 pt-2 border-t border-[#30363D]/50 mt-2">
-                     {lab.website && (
-                       <a href={lab.website} target="_blank" rel="noopener noreferrer" className="text-xs font-mono flex items-center gap-1.5 text-blue-400 hover:text-blue-300 transition-colors">
-                         <Globe size={12} /> Website
-                       </a>
-                     )}
-                     {lab.linkedin && (
-                       <a href={lab.linkedin} target="_blank" rel="noopener noreferrer" className="text-xs font-mono flex items-center gap-1.5 text-blue-400 hover:text-blue-300 transition-colors">
-                         <Link2 size={12} /> LinkedIn
-                       </a>
-                     )}
-                   </div>
-                 )}
-              </div>
-
-              {lab.notes && (
-                <div className="border-t border-[#30363D] pt-4">
-                  <div className="bg-[#1C2128]/50 border border-[#30363D] rounded p-3 flex gap-2">
-                    <Info size={14} className="text-[#8B949E] flex-shrink-0 mt-0.5" />
-                    <p className="text-[10px] text-[#8B949E] leading-relaxed font-mono">
-                      {lab.notes}
-                    </p>
-                  </div>
-                </div>
-              )}
-            </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
-      )}
+      </div>
     </div>
   );
 }

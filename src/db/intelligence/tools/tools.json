@@ -1,0 +1,115 @@
+[
+  {
+    "id": "tool-taram",
+    "name": "Green Collar Global (TARAM)",
+    "category": "Quality Assessment & AI",
+    "location": "Bangalore / Coimbatore / Perundurai",
+    "description": "Deep tech startup providing AI-powered portable hardware (TARAM) for instant on-site quality assessment of agricultural commodities like Turmeric and Curcumin.",
+    "capabilities": [
+      "Curcumin Content (Instant Portable Testing)",
+      "Pesticides Detection",
+      "Heavy Metals Detection",
+      "Real-time Quality Assessment (AI & Hardware)"
+    ],
+    "turnaround": "Instant (On-field)",
+    "status": "Verified",
+    "cost": "Custom Quote (Hardware / Subscription)",
+    "website": "https://greencollar.ai",
+    "linkedin": "https://in.linkedin.com/company/green-collar-agritech-solutions",
+    "contact": "Available via website booking"
+  },
+  {
+    "id": "tool-agnext-specx",
+    "name": "AgNext Technologies (SpecX Pro)",
+    "category": "Quality Assessment & AI",
+    "location": "Chandigarh, India",
+    "description": "Portable NIR-based device for rapid evaluation of spices, oilseeds, and flour. Analyzes curcumin, moisture, and capsaicin in under 60 seconds.",
+    "capabilities": [
+      "Curcumin Content (NIR Testing)",
+      "Moisture Content",
+      "Capsaicin Analysis",
+      "Adulteration Detection"
+    ],
+    "turnaround": "Under 60 Seconds",
+    "status": "Verified",
+    "cost": "Custom Quote",
+    "website": "https://agnext.com",
+    "linkedin": "https://in.linkedin.com/company/agnext",
+    "contact": "contact@agnext.in"
+  },
+  {
+    "id": "tool-foodsense",
+    "name": "FoodSense (by Zimmer and Peacock)",
+    "category": "Biosensors & Testing",
+    "location": "Royston, United Kingdom",
+    "description": "Portable, sensor-based testing platform for rapid quantification of active ingredients like curcumin in turmeric using electrochemical sensors.",
+    "capabilities": [
+      "Curcumin Quantification",
+      "Chilli Pungency (Capsaicin)",
+      "Electrochemical Sensing"
+    ],
+    "turnaround": "Minutes",
+    "status": "Verified",
+    "cost": "Starts at ~£1000 for kit",
+    "website": "https://www.zimmerpeacock.com",
+    "linkedin": "https://www.linkedin.com/company/zimmer-and-peacock",
+    "contact": "info@zimmerpeacock.com"
+  },
+  {
+    "id": "tool-scio",
+    "name": "Consumer Physics (SCiO)",
+    "category": "Portable Spectroscopy",
+    "location": "Hod Hasharon, Israel",
+    "description": "World's first pocket-sized connected micro-spectrometer. Uses near-infrared spectroscopy (NIRS) to scan materials like crops, grain, and feed for moisture, protein, and dry matter.",
+    "capabilities": [
+      "Moisture Content",
+      "Dry Matter Analysis",
+      "Protein Content",
+      "Cloud-based Analytics"
+    ],
+    "turnaround": "Instant",
+    "status": "Verified",
+    "cost": "Subscription & Hardware combo",
+    "website": "https://www.consumerphysics.com",
+    "linkedin": "https://www.linkedin.com/company/consumerphysics",
+    "contact": "sales@consumerphysics.com"
+  },
+  {
+    "id": "tool-neospectra",
+    "name": "Si-Ware Systems (NeoSpectra)",
+    "category": "Portable Spectroscopy",
+    "location": "Menlo Park, CA / Cairo, Egypt",
+    "description": "Compact Fourier Transform Near-Infrared (FT-NIR) spectral sensors. Provides lab-grade performance in a handheld device for analyzing agricultural products, feeds, and raw materials.",
+    "capabilities": [
+      "FT-NIR Spectroscopy",
+      "Feed & Forage Analysis",
+      "Raw Material Quality Control",
+      "Moisture & Fat content"
+    ],
+    "turnaround": "Instant",
+    "status": "Verified",
+    "cost": "Custom Quote",
+    "website": "https://www.neospectra.com",
+    "linkedin": "https://www.linkedin.com/company/si-ware-systems",
+    "contact": "info@si-ware.com"
+  },
+  {
+    "id": "tool-hone-ag",
+    "name": "Hone",
+    "category": "Agritech & Soil Testing",
+    "location": "Newcastle, Australia",
+    "description": "Lab-in-a-box technology utilizing NIR spectroscopy to rapidly test soil, crops, and grain directly in the field for carbon, nutrients, and quality metrics.",
+    "capabilities": [
+      "Soil Carbon Testing",
+      "Grain & Crop Quality",
+      "Nutrient Analysis",
+      "Field-level Insights"
+    ],
+    "turnaround": "Real-time",
+    "status": "Verified",
+    "cost": "Custom Quote",
+    "website": "https://www.honeag.com",
+    "linkedin": "https://www.linkedin.com/company/hone-ag",
+    "contact": "hello@honeag.com"
+  }
+]

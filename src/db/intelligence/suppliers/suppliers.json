@@ -1,0 +1,66 @@
+[
+  {
+    "id": "supplier-aqysta",
+    "name": "aQysta Irrigation India Private Limited",
+    "country": "India",
+    "location": "Guwahati, Assam",
+    "contact": "Chinmoy",
+    "entityType": "Supplier / Processor",
+    "marketTier": "Premium",
+    "curcuminContent": 9.30,
+    "qualitySpecs": "Moisture 6.70% - 13.10%, Deep Yellow Color, Salmonella Absent, E. coli <10 cfu/g",
+    "certifications": ["APEDA", "FSSAI", "NABL Tested", "SGS Tested", "AgNext Tested"],
+    "heavyMetalsDyes": "BLQ (Below Limit of Quantification) for Aflatoxins, Sudan Dyes, and Pesticides",
+    "source": "SGS Lab Report, Eureka Lab Reports, AgNext Lab Report, aQysta Company Brochure",
+    "intelligenceScore": 95,
+    "labReports": [
+      {
+        "id": "lab-agnext-1",
+        "labName": "AgNext",
+        "date": "2026-06-03",
+        "curcuminPercentage": 9.30,
+        "moisture": 13.1,
+        "heavyMetalsPassed": true,
+        "pesticidesPassed": true
+      },
+      {
+        "id": "lab-sgs-1",
+        "labName": "SGS",
+        "date": "2024-03-12",
+        "curcuminPercentage": 7.23,
+        "moisture": 8.1,
+        "heavyMetalsPassed": true,
+        "pesticidesPassed": true
+      },
+      {
+        "id": "lab-eureka-1",
+        "labName": "Eureka Analytical Services",
+        "date": "2024-02-28",
+        "curcuminPercentage": 7.54,
+        "moisture": 6.7,
+        "heavyMetalsPassed": true,
+        "pesticidesPassed": true
+      }
+    ],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-jaintia-coop",
+    "name": "Jaintia Hills Organic Cooperative",
+    "country": "India",
+    "location": "Meghalaya",
+    "contact": "Unknown",
+    "entityType": "Cooperative",
+    "marketTier": "Standard",
+    "curcuminContent": 6.8,
+    "qualitySpecs": "Organic, Fair Trade",
+    "certifications": ["Organic Certified"],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search",
+    "intelligenceScore": 60,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  }
+]

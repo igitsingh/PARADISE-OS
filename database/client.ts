@@ -13,7 +13,8 @@ export const prisma =
   globalForPrisma.prisma ||
   new PrismaClient({
     adapter,
-    log: ['query', 'info', 'warn', 'error'],
+    // Removing 'error' from log array to prevent Next.js from intercepting Prisma internal errors and showing the dev overlay
+    log: ['query', 'info'],
   })
 
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma

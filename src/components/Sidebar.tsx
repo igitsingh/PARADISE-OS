@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import { usePathname, useRouter } from 'next/navigation';
-import { Search, Sparkles, Calendar, Database, Anchor, FlaskConical, FileText, Settings, PanelLeftClose, PanelLeftOpen } from 'lucide-react';
+import { Search, Sparkles, Calendar, Database, Anchor, FlaskConical, FileText, Settings, PanelLeftClose, PanelLeftOpen, Cpu, BookOpen } from 'lucide-react';
 
 export default function Sidebar() {
   const router = useRouter();
@@ -36,7 +36,7 @@ export default function Sidebar() {
         
         <Link href="/" className={`flex items-center gap-3 px-3 py-2 text-sm hover:bg-white/5 rounded-xl transition-all ${isCollapsed ? 'justify-center' : ''} group border border-transparent hover:border-white/5`}>
           <Sparkles size={16} className="text-fuchsia-500/70 group-hover:text-fuchsia-400 transition-colors shrink-0" />
-          {!isCollapsed && <span className="group-hover:text-white transition-colors font-medium">AI Synthesizer</span>}
+          {!isCollapsed && <span className="group-hover:text-white transition-colors font-medium">Command Center</span>}
         </Link>
 
         <div className="h-6" /> {/* Spacer */}
@@ -60,6 +60,16 @@ export default function Sidebar() {
         <Link href="/rd" className={`flex items-center gap-3 px-3 py-2 text-sm hover:bg-white/5 rounded-xl transition-all ${isCollapsed ? 'justify-center' : ''} group border border-transparent hover:border-white/5`}>
           <FlaskConical size={16} className="text-purple-500/70 group-hover:text-purple-400 transition-colors shrink-0" />
           {!isCollapsed && <span className="group-hover:text-white transition-colors font-medium">Research</span>}
+        </Link>
+
+        <Link href="/requirements" className={`flex items-center gap-3 px-3 py-2 text-sm hover:bg-white/5 rounded-xl transition-all ${isCollapsed ? 'justify-center' : ''} group border border-transparent hover:border-white/5`}>
+          <BookOpen size={16} className="text-indigo-500/70 group-hover:text-indigo-400 transition-colors shrink-0" />
+          {!isCollapsed && <span className="group-hover:text-white transition-colors font-medium">Requirements</span>}
+        </Link>
+
+        <Link href="/tools" className={`flex items-center gap-3 px-3 py-2 text-sm hover:bg-white/5 rounded-xl transition-all ${isCollapsed ? 'justify-center' : ''} group border border-transparent hover:border-white/5`}>
+          <Cpu size={16} className="text-fuchsia-500/70 group-hover:text-fuchsia-400 transition-colors shrink-0" />
+          {!isCollapsed && <span className="group-hover:text-white transition-colors font-medium">Agritech Tools</span>}
         </Link>
 
         <Link href="/vault" className={`flex items-center gap-3 px-3 py-2 text-sm hover:bg-white/5 rounded-xl transition-all ${isCollapsed ? 'justify-center' : ''} group border border-transparent hover:border-white/5`}>
