@@ -224,8 +224,8 @@ export default function SupplierDossier({ supplier, onClose }: SupplierDossierPr
                   {Object.entries(supplier.marketplace).map(([platform, link]) => (
                     <div key={platform} className="p-3 rounded border border-white/5 bg-white/[0.02] flex items-center justify-between">
                       <div className="capitalize text-sm text-white/70">{platform}</div>
-                      <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-sm truncate max-w-[250px]">
-                        {link}
+                      <a href={link as string} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-sm truncate max-w-[250px]">
+                        {link as string}
                       </a>
                     </div>
                   ))}
