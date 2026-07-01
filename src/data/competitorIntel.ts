@@ -75,7 +75,9 @@ export interface CompetitorIntel {
     facebook?: string;
     linkedin?: string;
     youtube?: string;
+    twitter?: string;
     followers?: string;
+    [key: string]: string | undefined;
   };
   websiteIntel?: {
     traffic: string;
