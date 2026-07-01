@@ -225,21 +225,6 @@
     ]
   },
   {
-    "id": "brand_qai8yjncj1ppyipggjd819",
-    "name": "PR Exports Ltd.",
-    "marketPositioning": "Wholesale/Bulk Lakadong",
-    "source": "prel.in",
-    "sourceUrl": "http://prel.in",
-    "sourceType": "Official / Third-Party Analysis",
-    "dateCollected": "2026-06-28T21:14:01.767Z",
-    "dateLastVerified": "2026-06-28T21:14:01.767Z",
-    "confidenceScore": 90,
-    "verificationStatus": "Verified",
-    "roles": [
-      "Competitor Brand"
-    ]
-  },
-  {
     "id": "brand_07zpldbrwnb8geu3woul7vp",
     "name": "TatvaHills Superfoods",
     "marketPositioning": "Premium Lakadong Blends",
@@ -478,21 +463,6 @@
     "confidenceScore": 85,
     "verificationStatus": "Verified",
     "notes": "Sourced from West Jaintia Hills."
-  },
-  {
-    "id": "org-pr-exports-ltd-",
-    "name": "PR Exports Ltd.",
-    "roles": [
-      "Competitor Brand"
-    ],
-    "source": "Official / Retailers",
-    "sourceUrl": "https://google.com",
-    "sourceType": "Third-Party",
-    "dateCollected": "2026-06-28T21:55:16.353Z",
-    "dateLastVerified": "2026-06-28T21:55:16.353Z",
-    "confidenceScore": 85,
-    "verificationStatus": "Verified",
-    "notes": "Bulk exporter / Masala Mundi brand."
   },
   {
     "id": "org-tatvahills-superfoods",

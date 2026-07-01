@@ -38,3 +38,4 @@ export default async function SuppliersWorkspacePage() {
 
   return <SuppliersView initialSuppliers={suppliers} />;
 }
+// Force cache invalidation 1

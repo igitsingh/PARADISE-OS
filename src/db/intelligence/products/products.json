@@ -189,22 +189,6 @@
     "verificationStatus": "Verified"
   },
   {
-    "id": "prod_egw22uchcojywnr4iba6h8",
-    "brandId": "brand_qai8yjncj1ppyipggjd819",
-    "name": "PR Exports Ltd. Turmeric Powder",
-    "spiceType": "Turmeric",
-    "originRegion": "Unknown",
-    "claimedCurcuminPercent": "7-12%",
-    "notes": "Supplier and manufacturer for B2B/Bulk exports.",
-    "source": "prel.in",
-    "sourceUrl": "http://prel.in",
-    "sourceType": "Official",
-    "dateCollected": "2026-06-28T21:14:01.767Z",
-    "dateLastVerified": "2026-06-28T21:14:01.767Z",
-    "confidenceScore": 90,
-    "verificationStatus": "Verified"
-  },
-  {
     "id": "prod_us9pxdholkinndswdkrv",
     "brandId": "brand_07zpldbrwnb8geu3woul7vp",
     "name": "TatvaHills Superfoods Turmeric Powder",
@@ -399,20 +383,6 @@
     "verificationStatus": "Verified"
   },
   {
-    "id": "prod-org-pr-exports-ltd-",
-    "organizationId": "org-pr-exports-ltd-",
-    "name": "PR Exports Ltd. Turmeric",
-    "spiceType": "Lakadong / Ground Turmeric",
-    "claimedCurcuminPercent": "7%+",
-    "source": "Retail",
-    "sourceUrl": "https://google.com",
-    "sourceType": "Third-Party",
-    "dateCollected": "2026-06-28T21:55:16.353Z",
-    "dateLastVerified": "2026-06-28T21:55:16.353Z",
-    "confidenceScore": 85,
-    "verificationStatus": "Verified"
-  },
-  {
     "id": "prod-org-tatvahills-superfoods",
     "organizationId": "org-tatvahills-superfoods",
     "name": "TatvaHills Superfoods Turmeric",
@@ -494,6 +464,22 @@
     "dateCollected": "2026-06-28T21:55:16.353Z",
     "dateLastVerified": "2026-06-28T21:55:16.353Z",
     "confidenceScore": 85,
+    "verificationStatus": "Verified"
+  },
+  {
+    "id": "prod-c909216c",
+    "brandId": "supplier-sudasha-foods",
+    "name": "Sudasha Lakadong Turmeric Powder",
+    "spiceType": "Lakadong Turmeric",
+    "originRegion": "Jaintia Hills, Meghalaya",
+    "claimedCurcuminPercent": "7-9% (Lab tested up to 8.8%)",
+    "notes": "Price: Rs. 340/- kg (Retail/Catalog Rs 360/kg). Wholesale (50-100 kgs): Rs. 320/- kg + GST 5% + shipping.",
+    "source": "Supplier Catalogue",
+    "sourceUrl": "www.sudashafoods.com",
+    "sourceType": "Official",
+    "dateCollected": "2026-07-01T11:34:49.342862Z",
+    "dateLastVerified": "2026-07-01T11:34:49.342862Z",
+    "confidenceScore": 95,
     "verificationStatus": "Verified"
   }
 ]

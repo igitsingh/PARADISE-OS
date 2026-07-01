@@ -3,22 +3,41 @@
     "id": "supplier-aqysta",
     "name": "aQysta Irrigation India Private Limited",
     "country": "India",
-    "location": "Guwahati, Assam",
-    "contact": "Chinmoy",
+    "location": "Six mile, Guwahati, India",
+    "contact": "Chinmoy Sharma",
+    "primaryContact": {
+      "name": "Chinmoy Sharma",
+      "title": "Sales & Operations Manager",
+      "phone": "+91-8638253435",
+      "email": "chinmoy@aqysta.com"
+    },
+    "discoveryMethod": "Inbound WhatsApp (IndiaMart)",
     "entityType": "Supplier / Processor",
     "marketTier": "Premium",
-    "curcuminContent": 9.30,
+    "curcuminContent": 9.3,
     "qualitySpecs": "Moisture 6.70% - 13.10%, Deep Yellow Color, Salmonella Absent, E. coli <10 cfu/g",
-    "certifications": ["APEDA", "FSSAI", "NABL Tested", "SGS Tested", "AgNext Tested"],
+    "certifications": [
+      "APEDA",
+      "FSSAI",
+      "NABL Tested",
+      "SGS Tested",
+      "AgNext Tested"
+    ],
     "heavyMetalsDyes": "BLQ (Below Limit of Quantification) for Aflatoxins, Sudan Dyes, and Pesticides",
     "source": "SGS Lab Report, Eureka Lab Reports, AgNext Lab Report, aQysta Company Brochure",
+    "socialMedia": {
+      "website": "https://www.aqysta.com/",
+      "linkedin": "https://www.linkedin.com/company/aqysta/",
+      "facebook": "https://www.facebook.com/aQysta/",
+      "instagram": "https://www.instagram.com/aqysta7/"
+    },
     "intelligenceScore": 95,
     "labReports": [
       {
         "id": "lab-agnext-1",
         "labName": "AgNext",
         "date": "2026-06-03",
-        "curcuminPercentage": 9.30,
+        "curcuminPercentage": 9.3,
         "moisture": 13.1,
         "heavyMetalsPassed": true,
         "pesticidesPassed": true
@@ -51,16 +70,293 @@
     "country": "India",
     "location": "Meghalaya",
     "contact": "Unknown",
+    "discoveryMethod": "Inbound WhatsApp (IndiaMart)",
     "entityType": "Cooperative",
     "marketTier": "Standard",
     "curcuminContent": 6.8,
     "qualitySpecs": "Organic, Fair Trade",
-    "certifications": ["Organic Certified"],
+    "certifications": [
+      "Organic Certified"
+    ],
     "heavyMetalsDyes": "Unknown",
     "source": "Web Search",
+    "socialMedia": {
+      "website": "Unknown",
+      "linkedin": "Unknown",
+      "facebook": "Unknown",
+      "instagram": "Unknown"
+    },
     "intelligenceScore": 60,
     "labReports": [],
     "shipments": [],
     "importers": []
+  },
+  {
+    "id": "supplier-sudasha-foods",
+    "name": "Sudasha Foods Pvt Ltd",
+    "country": "India",
+    "location": "Shillong, Meghalaya",
+    "contact": "Priyam Chauhan",
+    "primaryContact": {
+      "name": "Priyam Chauhan",
+      "title": "Admin",
+      "email": "sudashafoods01@gmail.com",
+      "phone": "9089408509"
+    },
+    "discoveryMethod": "Inbound WhatsApp (IndiaMart)",
+    "entityType": "Supplier",
+    "marketTier": "Premium",
+    "curcuminContent": 8.8,
+    "qualitySpecs": "100% Natural Products | North-East Spices. Offering Lakadong Turmeric, Ginger powder, Cinnamon, Sichuan pepper, Bhut jolokia.",
+    "certifications": [],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Supplier Catalogue and Lab Report",
+    "socialMedia": {
+      "website": "https://www.indiamart.com/sudasha-foods/",
+      "linkedin": "https://www.linkedin.com/company/sudasha-foods",
+      "facebook": "https://www.facebook.com/profile.php?id=615587743125013",
+      "instagram": "https://www.instagram.com/sudashafoods/"
+    },
+    "intelligenceScore": 85,
+    "labReports": [
+      {
+        "id": "lab-c6d9dad3",
+        "labName": "EREC India Research Laboratory",
+        "date": "2026-02-19",
+        "curcuminPercentage": 8.2,
+        "moisture": null,
+        "heavyMetalsPassed": null,
+        "pesticidesPassed": null
+      },
+      {
+        "id": "lab-d5afff0d",
+        "labName": "EREC India Research Laboratory",
+        "date": "2026-02-19",
+        "curcuminPercentage": 8.8,
+        "moisture": null,
+        "heavyMetalsPassed": null,
+        "pesticidesPassed": null
+      }
+    ],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-pr-exports",
+    "name": "P.R. Exports Ltd.",
+    "country": "India",
+    "location": "Jaintia Hills, Meghalaya / Kalyani, WB",
+    "contact": "Unknown",
+    "primaryContact": {
+      "name": "Unknown",
+      "title": "Sales",
+      "phone": "+91 983054559",
+      "email": "Unknown"
+    },
+    "discoveryMethod": "Outbound AI Research",
+    "entityType": "Supplier / Processor",
+    "marketTier": "Bulk Commodity",
+    "curcuminContent": "7.0 - 9.0",
+    "qualitySpecs": "High curcumin Lakadong turmeric, lab-tested, unpolished",
+    "certifications": [
+      "FSSAI",
+      "ISO 9001:2015"
+    ],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search / IndiaMart",
+    "socialMedia": {
+      "website": "https://prel.in",
+      "linkedin": "https://www.linkedin.com/search/results/all/?keywords=PR+Exports+Ltd.",
+      "facebook": "https://facebook.com/PRExportsLtd",
+      "instagram": "https://instagram.com/masala_mundi"
+    },
+    "intelligenceScore": 88,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-spitex-exports",
+    "name": "Spitex Exports",
+    "country": "India",
+    "location": "Pune, Maharashtra / Jaintia Hills, Meghalaya",
+    "contact": "Sharan Javeri",
+    "primaryContact": {
+      "name": "Sharan Javeri",
+      "title": "Owner",
+      "phone": "+91-853-000-2361",
+      "email": "Info@spitexexports.com"
+    },
+    "discoveryMethod": "Outbound AI Research",
+    "entityType": "Exporter",
+    "marketTier": "Premium",
+    "curcuminContent": 9.6,
+    "qualitySpecs": "Lakadong Turmeric (Ground, Sliced, Dried), 7-12.32% Curcumin, HS Code: 091030",
+    "certifications": [],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search",
+    "socialMedia": {
+      "website": "https://spitexexports.com",
+      "linkedin": "Not Publicly Available",
+      "facebook": "https://facebook.com/spitexexports",
+      "instagram": "Not Publicly Available"
+    },
+    "intelligenceScore": 84,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-chakhao",
+    "name": "Chak Hao Traders (Chakhao)",
+    "country": "India",
+    "location": "Meghalaya",
+    "contact": "Unknown",
+    "discoveryMethod": "Outbound AI Research",
+    "entityType": "Supplier",
+    "marketTier": "Premium",
+    "curcuminContent": 8.5,
+    "qualitySpecs": "Wholesale Organic Lakadong Turmeric Powder. Also supplies Daru Haldi (₹180/kg, MOQ 25kg, HSN 1211 90) and Sea Buckthorn Berry Powder (₹300/kg, MOQ 10kg, HSN 1106 30). Pan-India Dispatch (Reliable B2B logistics across 50+ cities).",
+    "certifications": [
+      "Organic",
+      "FSSAI Approved",
+      "APEDA Certified"
+    ],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search",
+    "socialMedia": {
+      "website": "https://chakhao.com",
+      "linkedin": "Not Publicly Available",
+      "facebook": "Not Publicly Available",
+      "instagram": "https://instagram.com/chakhao_manipur"
+    },
+    "intelligenceScore": 89,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-naki-store",
+    "name": "NAKI",
+    "country": "India",
+    "location": "Meghalaya",
+    "contact": "Unknown",
+    "discoveryMethod": "Outbound AI Research",
+    "entityType": "Supplier",
+    "marketTier": "Premium",
+    "curcuminContent": 9,
+    "qualitySpecs": "Single-origin, traceable, GI-certified Lakadong turmeric",
+    "certifications": [
+      "GI Tagged",
+      "Organic"
+    ],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search",
+    "socialMedia": {
+      "website": "https://nakistore.in",
+      "linkedin": "Not Publicly Available",
+      "facebook": "Not Publicly Available",
+      "instagram": "Not Publicly Available"
+    },
+    "intelligenceScore": 85,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supplier-nilgiri-marten",
+    "name": "Nilgiri Marten Spices",
+    "country": "India",
+    "location": "Wayanad, Kerala / Jaintia Hills, Meghalaya",
+    "contact": "Aswin & Yathi",
+    "primaryContact": {
+      "name": "Aswin & Yathi",
+      "title": "Owners",
+      "phone": "+91-9778307321",
+      "email": "aswinpk@nilgirimarten.com"
+    },
+    "discoveryMethod": "Outbound AI Research",
+    "entityType": "Supplier",
+    "marketTier": "Premium",
+    "curcuminContent": 9.5,
+    "qualitySpecs": "Single-Origin Lakadong Turmeric, 7-12% Curcumin, 6x vs regular, 700% absorption",
+    "certifications": [
+      "GI Tagged"
+    ],
+    "heavyMetalsDyes": "Unknown",
+    "source": "Web Search",
+    "socialMedia": {
+      "website": "https://nilgirimarten.com",
+      "linkedin": "Not Publicly Available",
+      "facebook": "https://facebook.com/people/Nilgiri-Marten-Spices/100088386010528/",
+      "instagram": "https://instagram.com/nilgirimartenspices"
+    },
+    "intelligenceScore": 90,
+    "labReports": [],
+    "shipments": [],
+    "importers": []
+  },
+  {
+    "id": "supp_pr_exports",
+    "name": "PR Exports Ltd.",
+    "location": "Kolkata, West Bengal",
+    "country": "India",
+    "entityType": "B2B Supplier / Exporter",
+    "intelligenceScore": 88,
+    "marketTier": "Bulk Commodity",
+    "curcuminContent": "7.0 - 9.0",
+    "qualitySpecs": "Export Quality Bulk Processing",
+    "heavyMetalsDyes": "Batch-wise (Claimed)",
+    "socialMedia": {
+      "instagram": "https://instagram.com/masala_mundi",
+      "facebook": "https://facebook.com/PRExportsLtd",
+      "linkedin": "https://www.linkedin.com/search/results/all/?keywords=PR+Exports+Ltd."
+    },
+    "primaryContact": {
+      "name": "Atul & Charu",
+      "title": "Founders",
+      "phone": "Unknown",
+      "email": "Unknown"
+    },
+    "labReports": [],
+    "certifications": [],
+    "parentCompany": "PR Exports Ltd.",
+    "legalEntity": "PR Exports Ltd.",
+    "founder": "Atul & Charu",
+    "founderSocialUrl": "https://www.linkedin.com/search/results/all/?keywords=Atul+%26+Charu",
+    "foundingYear": "2020",
+    "headquarters": "Kolkata, West Bengal",
+    "manufacturingLocations": "Kalyani, West Bengal",
+    "processingLocations": "Kalyani, West Bengal",
+    "exportMarkets": "Global",
+    "countriesSold": "Global",
+    "websiteUrl": "https://prel.in",
+    "websiteDisplay": "prel.in",
+    "pricing": {
+      "premiumPositioning": "Wholesale",
+      "websitePrice": "Bulk Pricing",
+      "retailPrice": "Bulk Pricing",
+      "costPer100g": "Bulk Pricing"
+    },
+    "packaging": {
+      "primaryMaterial": "Bulk Packaging",
+      "labelDesign": "B2B Standard"
+    },
+    "curcuminDisplay": "7.0 - 9.0%",
+    "coaPublished": "No",
+    "heavyMetalsTested": "Batch-wise (Claimed)",
+    "organic": "Conventional / Natural",
+    "giTagged": "Lakadong (Sourced)",
+    "marketplace": {
+      "amazon": "https://www.amazon.in/s?k=PR+Exports+Ltd.",
+      "flipkart": "https://www.flipkart.com/search?q=PR+Exports+Ltd.",
+      "indiamart": "https://www.indiamart.com/search?q=PR+Exports+Ltd."
+    },
+    "positioningTags": [
+      "B2B Supplier",
+      "Bulk",
+      "Export Quality"
+    ],
+    "coreNarrative": "Reliable bulk supplier and manufacturer of processed spices including high-curcumin Lakadong and Assam Black Turmeric."
   }
 ]

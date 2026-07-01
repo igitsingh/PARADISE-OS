@@ -11,6 +11,9 @@ import {
   Activity,
   LineChart
 } from 'lucide-react';
+import InstitutionalResources from './InstitutionalResources';
+import MarketIntelligenceDashboard from './MarketIntelligenceDashboard';
+import { extractionMethodsData, agritechTrialsData, marketTrendsData } from '@/db/intelligence/rd-data';
 
 export default async function RDHubPage() {
   let activeResearchJobs = 0;
@@ -26,21 +29,19 @@ export default async function RDHubPage() {
       prisma.researchJob.count({ where: { status: { in: ['QUEUED', 'RESEARCHING'] } } }),
       prisma.researchPaper.count(),
       Promise.resolve(0), // No ClinicalTrial in schema yet
-      prisma.agritechTrial.findMany({ orderBy: { createdAt: 'desc' } }),
-      prisma.extractionMethod.findMany({ orderBy: { curcuminYieldPct: 'desc' } }),
-      prisma.marketTrend.findMany({ orderBy: { impactLevel: 'desc' } })
     ]);
     [
       activeResearchJobs,
       totalResearchPapers,
-      totalTrials,
-      agritechTrials,
-      extractionMethods,
-      marketTrends
+      totalTrials
     ] = results;
   } catch (error) {
     console.warn("Database connection unavailable - rendering empty intelligence state");
   }
+
+  agritechTrials = agritechTrialsData;
+  extractionMethods = extractionMethodsData;
+  marketTrends = marketTrendsData;
 
   return (
     <div className="flex flex-col w-full space-y-6 pb-10">
@@ -102,8 +103,11 @@ export default async function RDHubPage() {
           <p className="text-white/40 text-xs mt-2">Monitored human and preclinical trials.</p>
         </div>
       </div>
+      
+      {/* Grand View Research Market Intelligence */}
+      <MarketIntelligenceDashboard />
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
         {/* Extraction Methods */}
         <div className="bg-[#0A0A0A] border border-white/5 rounded-2xl overflow-hidden shadow-2xl flex flex-col h-full">
           <div className="px-5 py-4 border-b border-white/5 bg-white/[0.02] flex items-center justify-between">
@@ -118,7 +122,9 @@ export default async function RDHubPage() {
             ) : extractionMethods.map(method => (
               <div key={method.id} className="p-5 hover:bg-white/[0.02] transition-colors group">
                 <div className="flex justify-between items-start mb-2">
-                  <h3 className="text-white font-medium text-base">{method.name}</h3>
+                  <h3 className="text-white font-medium text-base">
+                    {method.url ? <a href={method.url} target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 hover:underline transition-colors">{method.name}</a> : method.name}
+                  </h3>
                   <span className="bg-emerald-500/10 text-emerald-400 px-2 py-0.5 rounded text-[10px] font-mono border border-emerald-500/20">
                     {method.curcuminYieldPct}% Yield
                   </span>
@@ -158,7 +164,9 @@ export default async function RDHubPage() {
               ) : agritechTrials.map(trial => (
                 <div key={trial.id} className="p-5 hover:bg-white/[0.02] transition-colors">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-white font-medium text-base">{trial.title}</h3>
+                    <h3 className="text-white font-medium text-base">
+                      {trial.url ? <a href={trial.url} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 hover:underline transition-colors">{trial.title}</a> : trial.title}
+                    </h3>
                     <span className="bg-cyan-500/10 text-cyan-400 px-2 py-0.5 rounded text-[10px] font-mono border border-cyan-500/20">
                       {trial.status.replace('_', ' ')}
                     </span>
@@ -188,7 +196,9 @@ export default async function RDHubPage() {
               ) : marketTrends.map(trend => (
                 <div key={trend.id} className="p-4 hover:bg-white/[0.02] transition-colors">
                   <div className="flex justify-between items-center mb-2">
-                    <h3 className="text-white font-medium text-sm">{trend.title}</h3>
+                    <h3 className="text-white font-medium text-sm">
+                      {trend.url ? <a href={trend.url} target="_blank" rel="noopener noreferrer" className="hover:text-purple-400 hover:underline transition-colors">{trend.title}</a> : trend.title}
+                    </h3>
                     <span className={`px-2 py-0.5 rounded text-[9px] font-mono border ${
                       trend.impactLevel === 'HIGH' ? 'bg-red-500/10 text-red-400 border-red-500/20' : 
                       'bg-purple-500/10 text-purple-400 border-purple-500/20'
@@ -205,6 +215,7 @@ export default async function RDHubPage() {
         </div>
       </div>
 
+      <InstitutionalResources />
     </div>
   );
 }

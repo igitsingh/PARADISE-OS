@@ -5,7 +5,7 @@ import SupplierDossier from './SupplierDossier';
 import { 
   Search, ChevronDown, ChevronRight, Filter, Download, 
   Plus, Mail, Users, Building, MapPin, CheckSquare, 
-  Square, Globe, LayoutGrid, ArrowUp, ArrowDown, ArrowUpDown
+  Square, Globe, LayoutGrid, ArrowUp, ArrowDown, ArrowUpDown, Eye
 } from 'lucide-react';
 
 interface SuppliersViewProps {
@@ -30,20 +30,23 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
     setExpandedFilters(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
-    const renderSortHeader = (field: string, label: string, className: string = "") => (
+  const renderSortHeader = (field: string, label: string, className: string = "") => {
+    const isName = field === 'name';
+    return (
     <th 
       className={`px-4 py-3 cursor-pointer select-none hover:bg-white/5 transition-colors group ${className}`}
       onClick={() => handleSort(field)}
     >
-      <div className="flex items-center gap-2">
-        <span className="font-semibold text-white/50 group-hover:text-white/70 transition-colors">{label}</span>
+      <div className={`flex items-center gap-2 ${isName ? 'justify-start' : 'justify-center'} text-center`}>
+        <span className="font-semibold text-white/50 group-hover:text-white/70 transition-colors whitespace-pre-line">{label}</span>
         <div className="flex flex-col">
           <ArrowUp className={`w-2.5 h-2.5 -mb-1 ${sortField === field && sortDirection === 'asc' ? 'text-blue-400' : 'text-white/20'}`} />
           <ArrowDown className={`w-2.5 h-2.5 ${sortField === field && sortDirection === 'desc' ? 'text-blue-400' : 'text-white/20'}`} />
         </div>
       </div>
     </th>
-  );
+    );
+  };
 
   const handleSort = (field: string) => {
     if (sortField === field) {
@@ -66,10 +69,11 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
         case 'name': return (supp.name || '').toLowerCase();
         case 'company': return (supp.name || '').toLowerCase();
         case 'entityType': return (supp.entityType || '').toLowerCase();
+        case 'discovery': return (supp.discoveryMethod || '').toLowerCase();
         case 'location': return (supp.location || '').toLowerCase();
         case 'marketTier': return (supp.marketTier || '').toLowerCase();
         case 'curcumin': return supp.curcuminContent || 0;
-        case 'score': return supp.intelligenceScore || 0;
+        case 'price': return supp.pricePerKg || 0;
         default: return '';
       }
     };
@@ -221,18 +225,19 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
 
           {/* Table Container */}
           <div className="flex-1 overflow-auto">
-            <table className="w-full text-left whitespace-nowrap">
+            <table className="w-full text-left">
               <thead className="sticky top-0 z-10 bg-[#1A1A1A] border-b border-white/10 text-[11px] uppercase tracking-wider text-white/40 font-semibold shadow-sm">
                 <tr>
                   <th className="px-4 py-3 w-10 text-center"><Square className="w-4 h-4 mx-auto" /></th>
                   {renderSortHeader("name", "Supplier Name", "min-w-[200px]")}
-                  <th className="px-4 py-3">Quick Actions</th>
+                  <th className="px-4 py-3 text-center">Quick Actions</th>
                   {renderSortHeader("company", "Company", "min-w-[150px]")}
                   {renderSortHeader("entityType", "Entity Type")}
+                  {renderSortHeader("discovery", "Discovery")}
                   {renderSortHeader("location", "Location")}
                   {renderSortHeader("marketTier", "Market Tier")}
                   {renderSortHeader("curcumin", "Curcumin %")}
-                  {renderSortHeader("score", "Score")}
+                  {renderSortHeader("price", "Price / kg")}
                 </tr>
               </thead>
               <tbody className="divide-y divide-white/5">
@@ -245,7 +250,7 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
                       <td className="px-4 py-3">
                         <button 
                           onClick={() => setSelectedId(supp.id)}
-                          className="text-blue-400 hover:text-blue-300 font-medium transition-colors text-sm"
+                          className="text-blue-400 hover:text-blue-300 font-medium transition-colors text-sm block w-full text-left"
                         >
                           {supp.name}
                         </button>
@@ -253,9 +258,10 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
                       <td className="px-4 py-3">
                         <button 
                           onClick={() => setSelectedId(supp.id)}
-                          className="px-3 py-1.5 rounded text-xs font-medium border border-blue-500/30 text-blue-400 hover:bg-blue-500/10 transition-colors"
+                          className="p-1.5 rounded text-blue-400 hover:bg-blue-500/10 hover:text-blue-300 transition-colors flex items-center justify-center"
+                          title="View Dossier"
                         >
-                          View Dossier
+                          <Eye className="w-4 h-4" />
                         </button>
                       </td>
                       <td className="px-4 py-3">
@@ -265,19 +271,38 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
                           </div>
                           <div>
                             <div className="text-white/90 text-sm font-medium">{supp.name}</div>
-                            {supp.contact && (
+                            {supp.primaryContact ? (
+                              <div className="text-[11px] text-white/50 mt-0.5 flex flex-col gap-0.5">
+                                <div className="flex items-center gap-1">
+                                  <Users className="w-3 h-3 shrink-0" />
+                                  <span className="truncate">{supp.primaryContact.name}</span>
+                                </div>
+                                <div className="text-white/40 ml-4 truncate">
+                                  {supp.primaryContact.email} | {supp.primaryContact.phone}
+                                </div>
+                              </div>
+                            ) : supp.contact ? (
                               <div className="text-[11px] text-white/50 mt-0.5 flex items-center gap-1">
                                 <Users className="w-3 h-3" />
                                 {supp.contact}
                               </div>
-                            )}
+                            ) : null}
                           </div>
                         </div>
                       </td>
                       <td className="px-4 py-3 text-sm text-white/70 font-medium">
                         {supp.entityType || 'Unknown'}
                       </td>
-                      <td className="px-4 py-3 text-sm text-white/70">
+                      <td className="px-4 py-3">
+                        {supp.discoveryMethod ? (
+                          <span className="inline-block whitespace-normal text-center leading-tight max-w-[110px] px-2 py-1 bg-white/5 border border-white/10 rounded-md text-[10px] text-white/70 font-medium tracking-wide">
+                            {supp.discoveryMethod}
+                          </span>
+                        ) : (
+                          <span className="text-white/20 text-[10px] italic">Not Tracked</span>
+                        )}
+                      </td>
+                      <td className="px-4 py-3 text-sm text-white/70 whitespace-normal min-w-[200px] leading-snug">
                         {supp.location || 'Unknown'}
                       </td>
                       <td className="px-4 py-3 text-sm text-white/70 capitalize">
@@ -286,9 +311,9 @@ export default function SuppliersView({ initialSuppliers }: SuppliersViewProps) 
                       <td className="px-4 py-3 text-sm text-white/70 font-mono">
                         {supp.curcuminContent ? `${supp.curcuminContent}%` : 'Unknown'}
                       </td>
-                      <td className="px-4 py-3 text-sm">
-                        <span className={`font-mono px-2 py-1 rounded bg-black/40 border border-white/10 ${supp.intelligenceScore >= 80 ? 'text-emerald-400' : supp.intelligenceScore >= 50 ? 'text-yellow-400' : 'text-red-400'}`}>
-                          {supp.intelligenceScore || 0}%
+                      <td className="px-4 py-3 text-right">
+                        <span className="font-mono text-xs text-white/70">
+                          {supp.pricePerKg ? `₹${supp.pricePerKg}` : 'TBD'}
                         </span>
                       </td>
                     </tr>

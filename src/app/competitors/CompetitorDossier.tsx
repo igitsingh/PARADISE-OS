@@ -23,6 +23,14 @@ const SECTIONS = [
   "16. Paradise Strategy"
 ];
 
+const renderLink = (val: string | undefined) => {
+  if (!val || val === "Unknown" || val === "Not Publicly Available") return val;
+  if (val.startsWith("http")) {
+    return <a href={val} target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">{val.replace('https://www.', '').replace('https://', '')}</a>;
+  }
+  return val;
+};
+
 const Field = ({ label, value, verified = false }: { label: string, value: string | React.ReactNode | null, verified?: boolean }) => (
   <div className="flex flex-col mb-4">
     <div className="flex items-center gap-1.5 mb-1">
@@ -110,7 +118,22 @@ export default function CompetitorDossier({ competitor, onClose }: { competitor:
                 <Field label="Brand Name" value={intel?.name || competitor.name} verified={hasData} />
                 <Field label="Parent Company" value={intel?.parentCompany || null} />
                 <Field label="Legal Entity" value={intel?.legalEntity || null} />
-                <Field label="Founder" value={intel?.founder || null} verified={!!intel?.founder} />
+                <Field 
+                  label="Founder" 
+                  value={
+                    intel?.founder ? (
+                      <div className="flex flex-col">
+                        <span>{intel.founder}</span>
+                        {(intel)?.founderSocialUrl && (
+                          <a href={(intel)?.founderSocialUrl} target="_blank" rel="noreferrer" className="text-blue-400 hover:underline mt-1 text-[10px] uppercase font-mono tracking-widest flex items-center gap-1">
+                            <ArrowUpRight className="w-3 h-3" /> View LinkedIn Profile
+                          </a>
+                        )}
+                      </div>
+                    ) : null
+                  } 
+                  verified={!!intel?.founder} 
+                />
                 <Field label="Founding Year" value={intel?.foundingYear || null} verified={!!intel?.foundingYear} />
                 <Field label="Headquarters" value={intel?.headquarters || null} verified={!!intel?.headquarters} />
                 <Field label="Country" value={intel?.country || null} verified={!!intel?.country} />
@@ -295,9 +318,9 @@ export default function CompetitorDossier({ competitor, onClose }: { competitor:
               <div>
                 {intel?.socialMedia ? (
                   <div className="grid grid-cols-2 gap-x-8 gap-y-4">
-                    <Field label="Instagram" value={intel.socialMedia.instagram} verified={intel.socialMedia.instagram !== "Unknown"} />
-                    <Field label="Facebook" value={intel.socialMedia.facebook} verified={intel.socialMedia.facebook !== "Unknown"} />
-                    <Field label="LinkedIn" value={intel.socialMedia.linkedin} verified={intel.socialMedia.linkedin !== "Not Publicly Available" && intel.socialMedia.linkedin !== "Unknown"} />
+                    <Field label="Instagram" value={renderLink(intel.socialMedia.instagram)} verified={intel.socialMedia.instagram !== "Unknown"} />
+                    <Field label="Facebook" value={renderLink(intel.socialMedia.facebook)} verified={intel.socialMedia.facebook !== "Unknown"} />
+                    <Field label="LinkedIn" value={renderLink(intel.socialMedia.linkedin)} verified={intel.socialMedia.linkedin !== "Not Publicly Available" && intel.socialMedia.linkedin !== "Unknown"} />
                     <Field label="Followers" value={intel.socialMedia.followers} verified={intel.socialMedia.followers !== "Unknown"} />
                   </div>
                 ) : (
@@ -370,9 +393,9 @@ export default function CompetitorDossier({ competitor, onClose }: { competitor:
               <div>
                 {intel?.marketplace ? (
                   <div className="grid grid-cols-2 gap-x-8 gap-y-4">
-                    <Field label="Amazon" value={intel.marketplace.amazon} verified />
-                    <Field label="Flipkart" value={intel.marketplace.flipkart} verified />
-                    <Field label="IndiaMart" value={intel.marketplace.indiamart} verified />
+                    <Field label="Amazon" value={renderLink(intel.marketplace.amazon)} verified />
+                    <Field label="Flipkart" value={renderLink(intel.marketplace.flipkart)} verified />
+                    <Field label="IndiaMart" value={renderLink(intel.marketplace.indiamart)} verified />
                   </div>
                 ) : (
                   <div className="p-12 border border-dashed border-white/10 rounded-lg flex flex-col items-center justify-center text-center">

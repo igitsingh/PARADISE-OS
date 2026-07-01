@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   X, CheckCircle2, AlertTriangle, FileText, Download, 
-  MapPin, Globe, Award, ShieldAlert, BookOpen, Clock, BarChart4
+  MapPin, Globe, Award, ShieldAlert, BookOpen, Clock, BarChart4, Users
 } from 'lucide-react';
 
 interface SupplierDossierProps {
@@ -112,6 +112,126 @@ export default function SupplierDossier({ supplier, onClose }: SupplierDossierPr
                 </div>
               </div>
             </section>
+
+            {supplier.socialMedia && (
+              <section>
+                <h3 className="text-sm font-semibold text-white/90 mb-4 uppercase tracking-wider flex items-center gap-2">
+                  <Globe className="w-4 h-4 text-blue-400" /> Digital & Social Presence
+                </h3>
+                <div className="grid grid-cols-2 gap-4">
+                  {Object.entries(supplier.socialMedia).map(([platform, link]) => (
+                    <div key={platform} className="p-4 rounded border border-white/5 bg-white/[0.02] flex items-center justify-between">
+                      <div className="capitalize text-sm text-white/70">{platform}</div>
+                      {link !== 'Unknown' && link !== 'Not Active' ? (
+                        <a href={link as string} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-sm truncate max-w-[200px]">
+                          {link as string}
+                        </a>
+                      ) : (
+                        <span className="text-white/30 text-sm">Not Listed</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
+            {supplier.primaryContact && (
+              <section>
+                <h3 className="text-sm font-semibold text-white/90 mb-4 uppercase tracking-wider flex items-center gap-2">
+                  <Users className="w-4 h-4 text-blue-400" /> Primary Contact
+                </h3>
+                <div className="p-4 rounded border border-white/5 bg-white/[0.02] flex flex-col gap-2">
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-white/70">Name</span>
+                    <span className="text-sm font-medium text-white">{supplier.primaryContact.name}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-white/70">Title</span>
+                    <span className="text-sm font-medium text-white">{supplier.primaryContact.title}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-white/70">Phone</span>
+                    <span className="text-sm font-medium text-blue-400">{supplier.primaryContact.phone}</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm text-white/70">Email</span>
+                    <span className="text-sm font-medium text-blue-400">{supplier.primaryContact.email}</span>
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {supplier.pricing && (
+              <section>
+                <h3 className="text-sm font-semibold text-white/90 mb-4 uppercase tracking-wider flex items-center gap-2">
+                  <BarChart4 className="w-4 h-4 text-blue-400" /> Market Intelligence
+                </h3>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02]">
+                    <div className="text-xs text-white/40 mb-1">Pricing Positioning</div>
+                    <div className="text-sm text-white">{supplier.pricing.premiumPositioning}</div>
+                  </div>
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02]">
+                    <div className="text-xs text-white/40 mb-1">Wholesale / Retail Price</div>
+                    <div className="text-sm text-white">{supplier.pricing.websitePrice}</div>
+                  </div>
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02]">
+                    <div className="text-xs text-white/40 mb-1">Cost Per 100g</div>
+                    <div className="text-sm text-white">{supplier.pricing.costPer100g}</div>
+                  </div>
+                </div>
+              </section>
+            )}
+
+            {supplier.packaging && (
+              <section>
+                <h3 className="text-sm font-semibold text-white/90 mb-4 uppercase tracking-wider flex items-center gap-2">
+                  <BookOpen className="w-4 h-4 text-blue-400" /> Packaging & Positioning
+                </h3>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02]">
+                    <div className="text-xs text-white/40 mb-1">Primary Material</div>
+                    <div className="text-sm text-white">{supplier.packaging.primaryMaterial}</div>
+                  </div>
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02]">
+                    <div className="text-xs text-white/40 mb-1">Label Design</div>
+                    <div className="text-sm text-white">{supplier.packaging.labelDesign}</div>
+                  </div>
+                  <div className="p-4 rounded border border-white/5 bg-white/[0.02] col-span-2">
+                    <div className="text-xs text-white/40 mb-1">Core Narrative</div>
+                    <div className="text-sm text-white italic">"{supplier.coreNarrative}"</div>
+                  </div>
+                  {supplier.positioningTags && (
+                    <div className="p-4 rounded border border-white/5 bg-white/[0.02] col-span-2">
+                      <div className="text-xs text-white/40 mb-2">Positioning Tags</div>
+                      <div className="flex flex-wrap gap-2">
+                        {supplier.positioningTags.map((tag: string, idx: number) => (
+                          <span key={idx} className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs text-white/80">{tag}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            {supplier.marketplace && (
+              <section>
+                <h3 className="text-sm font-semibold text-white/90 mb-4 uppercase tracking-wider flex items-center gap-2">
+                  <Globe className="w-4 h-4 text-blue-400" /> Marketplace Presence
+                </h3>
+                <div className="grid grid-cols-1 gap-2">
+                  {Object.entries(supplier.marketplace).map(([platform, link]) => (
+                    <div key={platform} className="p-3 rounded border border-white/5 bg-white/[0.02] flex items-center justify-between">
+                      <div className="capitalize text-sm text-white/70">{platform}</div>
+                      <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 text-sm truncate max-w-[250px]">
+                        {link}
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
         )}
 

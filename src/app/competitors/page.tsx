@@ -3,6 +3,7 @@ import { prisma } from '@database/client';
 import fs from 'fs/promises';
 import path from 'path';
 import CompetitorsView from './CompetitorsView';
+import { newCompetitors } from '../../db/intelligence/brands/competitors-rich';
 
 export default async function CompetitorsWorkspacePage() {
   let competitors: any[] = [];
@@ -47,12 +48,17 @@ export default async function CompetitorsWorkspacePage() {
         }
       });
       competitors = Array.from(uniqueBrands.values());
-      // Sort alphabetically by name
-      competitors.sort((a, b) => a.name.localeCompare(b.name));
     } catch (e) {
       console.error("Failed to load local organizations JSON", e);
     }
   }
 
+  // Append our deeply researched competitors unconditionally
+  competitors = [...competitors, ...newCompetitors];
+
+  // Sort alphabetically by name
+  competitors.sort((a, b) => a.name.localeCompare(b.name));
+
   return <CompetitorsView initialCompetitors={competitors} />;
 }
+// Force cache invalidation 1

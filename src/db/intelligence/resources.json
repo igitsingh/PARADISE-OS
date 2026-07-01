@@ -1,0 +1,42 @@
+[
+  {
+    "id": "res_kvk",
+    "name": "Krishi Vigyan Kendra (KVK), West Jaintia Hills",
+    "url": "https://kvkwestjaintiahills.nic.in/",
+    "category": "Training",
+    "description": "An agricultural extension center by ICAR providing farmers with the latest technologies, high-yield seeds, and training.",
+    "businessValue": "Partnership for training supplying farmers on optimal organic farming practices for Lakadong Turmeric, improving yield and quality."
+  },
+  {
+    "id": "res_ncd",
+    "name": "National Cooperative Database",
+    "url": "https://cooperatives.gov.in/",
+    "category": "Sourcing",
+    "description": "The Ministry of Cooperation's portal for cooperative societies across India.",
+    "businessValue": "Identify and partner with existing registered farmer cooperatives in Meghalaya. Vital for compliance and accessing federal subsidies."
+  },
+  {
+    "id": "res_kvk_fb",
+    "name": "KVK West Jaintia Hills Facebook",
+    "url": "https://www.facebook.com/westjaintiahills/",
+    "category": "Updates",
+    "description": "The digital presence for local agricultural/administrative updates in the Jaintia Hills region.",
+    "businessValue": "Real-time updates on agricultural fairs, weather advisories, government distributions, and community sentiment."
+  },
+  {
+    "id": "res_lamp",
+    "name": "Megha-LAMP (MBMA)",
+    "url": "https://www.mbma.org.in/mlamp/rural_finance/",
+    "category": "Funding",
+    "description": "A rural finance initiative by the Meghalaya Basin Management Agency (MBMA) providing financial inclusion and market access.",
+    "businessValue": "Guide partner farmers to access capital and subsidies. Stronger, financially secure farmers mean a more reliable supply chain."
+  },
+  {
+    "id": "res_mfec",
+    "name": "MFEC - Lakadong GI Tag Announcement",
+    "url": "https://www.mfec.in/appreciation-post-a-new-chapter-for-meghalayas-lakadong-begins-now/",
+    "category": "Certification",
+    "description": "Official announcement that Lakadong Turmeric has secured the Geographical Indication (GI) tag.",
+    "businessValue": "Massive unique selling proposition (USP) in international markets. Guarantees authenticity and allows commanding a premium price."
+  }
+]
