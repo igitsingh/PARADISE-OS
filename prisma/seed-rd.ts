@@ -1,4 +1,4 @@
-import { prisma } from '../src/lib/prisma';
+import { prisma } from '../database/client';
 
 async function main() {
   console.log('Seeding R&D Intelligence Hub data...');
